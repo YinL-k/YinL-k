@@ -9,6 +9,10 @@ on:
       - "scripts/public_contributions.py"
       - ".github/workflows/profile-metrics.yml"
 
+concurrency:
+  group: profile-metrics-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
