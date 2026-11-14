@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Generate self-hosted GitHub Profile SVGs from public, owned repositories.
+"""Generate self-hosted GitHub Profile statistics and language SVGs.
 
-No third-party chart server or personal access token is needed.
-The GitHub Actions token can read public repository metadata and commit history.
-Counts intentionally exclude private repositories, organizations, and forks where noted.
+Public repository metadata and code language bytes come from GitHub REST.
+The contribution total comes from GitHub\u0027s *publicly visible* contribution
+calendar (including anonymized private counts ONLY if the user opts in).
+No private repository contents or personal access token are needed.
 """
 from collections import Counter
 from datetime import datetime, timedelta, timezone
@@ -74,14 +75,14 @@ def write(name, fragments):
     print(f"Generated assets/{name}")
 
 
-def stats_svg(public_repos, originals, stars, commits):
-    a = [svg_start(530, 210, "Public GitHub repository statistics")]
-    a.append(text_at(26, 37, "PUBLIC GITHUB SNAPSHOT", 13, "#8b949e", 700))
+def stats_svg(public_repos, originals, stars, contributions):
+    a = [svg_start(530, 210, "GitHub profile statistics and publicly visible contributions")]
+    a.append(text_at(26, 37, "GITHUB PROFILE SNAPSHOT", 13, "#8b949e", 700))
     data = [
         (len(public_repos), "Public repositories"),
         (len(originals), "Non-fork projects"),
         (stars, "Stars received"),
-        (commits, "Public commits · 12 mo"),
+        (contributions, "Visible contributions · 12 mo"),
     ]
     for i, (number, label) in enumerate(data):
         x = 26 if i % 2 == 0 else 284
@@ -112,71 +113,23 @@ def languages_svg(language_bytes):
     return write("top-languages.svg", a)
 
 
-def activity_svg(counts):
-    width, height = 1050, 254
-    a = [svg_start(width, height, "Public commit activity for the past 12 months")]
-    total = sum(counts.values())
-    active_days = sum(1 for c in counts.values() if c > 0)
-    a.append(text_at(26, 36, "PUBLIC COMMIT ACTIVITY", 14, "#c9d1d9", 700))
-    a.append(text_at(1024, 36, f"{total:,} commits  ·  {active_days} active days", 13, "#8b949e", 400, 'text-anchor="end"'))
-    start_monday = START - timedelta(days=START.weekday())
-    cell, gap, left, top = 13, 3, 64, 85
-    shades = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-    weekday = ["Mon", "", "Wed", "", "Fri", "", ""]
-    for i, label in enumerate(weekday):
-        if label:
-            a.append(text_at(22, top + i * (cell + gap) + 10, label, 11, "#8b949e"))
-    last_month = ""
-    days = (TODAY - start_monday).days + 1
-    for index in range(days):
-        day = start_monday + timedelta(days=index)
-        col = index // 7
-        row = index % 7
-        x = left + col * (cell + gap)
-        y = top + row * (cell + gap)
-        if day.month != last_month and day.day <= 7 and row == 0:
-            a.append(text_at(x, 72, day.strftime("%b"), 11, "#8b949e"))
-            last_month = day.month
-        count = counts.get(day, 0) if START <= day <= TODAY else 0
-        level = 0 if count == 0 else (1 if count == 1 else 2 if count <= 3 else 3 if count <= 7 else 4)
-        a.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{shades[level]}">'
-                 f'<title>{day.isoformat()}: {count} public commits</title></rect>')
-    a.append(text_at(26, 230, "Public, owned, non-fork repos only. Private contributions are not included.", 11, "#8b949e"))
-    a.append(text_at(836, 230, "Less", 11, "#8b949e"))
-    for i, color in enumerate(shades):
-        a.append(f'<rect x="{870+i*18}" y="220" width="12" height="12" rx="2" fill="{color}"/>')
-    a.append(text_at(1024, 230, "More", 11, "#8b949e", 400, 'text-anchor="end"'))
-    return write("public-commit-activity.svg", a)
-
-
 def main():
     account = quote(USER, safe="")
     repos = pages(f"/users/{account}/repos?type=owner")
     public = [r for r in repos if not r.get("private") and r.get("owner", {}).get("login", "").lower() == USER.lower()]
     originals = [r for r in public if not r.get("fork")]
     languages = Counter()
-    commits_by_date = Counter()
-    seen_commits = set()
     for repo in originals:
-        full_name = repo["full_name"]
-        url_name = "/".join(quote(part, safe="") for part in full_name.split("/"))
+        url_name = "/".join(quote(part, safe="") for part in repo["full_name"].split("/"))
         languages.update(api(f"/repos/{url_name}/languages"))
-        since = START.isoformat() + "T00:00:00Z"
-        commits = pages(f"/repos/{url_name}/commits?author={account}&since={since}", cap=25)
-        for commit in commits:
-            sha = commit.get("sha")
-            if not sha or sha in seen_commits:
-                continue
-            seen_commits.add(sha)
-            author_date = commit.get("commit", {}).get("author", {}).get("date", "")
-            if author_date:
-                day = datetime.fromisoformat(author_date.replace("Z", "+00:00")).date()
-                if START <= day <= TODAY:
-                    commits_by_date[day] += 1
+
+    # The public calendar is generated first by public_contributions.py.
+    # Never mislabel public commit counts as complete contributions.
+    summary = json.loads((OUT / "contribution-summary.json").read_text(encoding="utf-8"))
+    total = int(summary["contributions"])
     stars = sum(repo.get("stargazers_count", 0) for repo in public)
-    stats_svg(public, originals, stars, sum(commits_by_date.values()))
+    stats_svg(public, originals, stars, total)
     languages_svg(languages)
-    activity_svg(commits_by_date)
 
 
 if __name__ == "__main__":
