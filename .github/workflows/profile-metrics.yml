@@ -1,0 +1,35 @@
+name: Refresh profile metrics
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * *"
+  push:
+    paths:
+      - "scripts/update_profile_metrics.py"
+      - ".github/workflows/profile-metrics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate public metrics
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_profile_metrics.py
+      - name: Commit refreshed SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/top-languages.svg assets/public-commit-activity.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(profile): refresh public metrics [skip ci]"
+            git push
+          fi
