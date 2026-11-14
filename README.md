@@ -72,14 +72,22 @@ Contributed to a semantic retrieval pipeline matching research interests with un
 ### AI-assisted Development Tools
 
 <div align="center">
+  <a href="https://code.claude.com/" title="Claude Code">
+    <img src="assets/ai-tools/claude-code.svg" alt="Claude Code" width="52" height="52" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://openai.com/codex/" title="OpenAI Codex">
+    <img src="assets/ai-tools/codex.svg" alt="OpenAI Codex" width="52" height="52" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://chatgpt.com/" title="ChatGPT">
+    <img src="assets/ai-tools/chatgpt.svg" alt="ChatGPT" width="52" height="52" />
+  </a>
 
-[![Claude Code](https://img.shields.io/badge/Claude_Code-AI_Coding-D97757?style=for-the-badge)](https://docs.anthropic.com/en/docs/claude-code/overview)
-[![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-AI_Coding-111827?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/codex/)
-[![ChatGPT](https://img.shields.io/badge/ChatGPT-AI_Workflows-10A37F?style=for-the-badge&logo=openai&logoColor=white)](https://chatgpt.com/)
-
+  <sub>Claude Code · OpenAI Codex · ChatGPT</sub>
 </div>
 
-I use AI-assisted development tools as part of engineering workflows for planning, implementation, debugging, and code review. I treat generated changes as code to verify through tests, source inspection, and appropriate release checks.
+I use AI-assisted development tools for planning, implementation, debugging, and code review, with generated changes verified through source inspection, tests, and appropriate release checks.
 
 **Engineering interests:** LLM tool calling · agent runtimes · MCP · semantic search · browser automation · full-stack products · engineering reliability
 
