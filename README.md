@@ -1,10 +1,3 @@
-<!--
-PROFILE README DRAFT — NOT SUBMITTED.
-Place in a public repository named YinL-k/YinL-k after review.
-Dynamic stat cards below use third-party hosted endpoints and may occasionally fail.
-No company-private source, images, or credentials are embedded.
--->
-
 <div align="center">
 
 # Xianzhuo (Ari) Yin
@@ -76,23 +69,32 @@ Contributed to a semantic retrieval pipeline matching research interests with un
 
 </div>
 
+### AI-assisted Development Tools
+
+<div align="center">
+
+[![Claude Code](https://img.shields.io/badge/Claude_Code-AI_Coding-D97757?style=for-the-badge)](https://docs.anthropic.com/en/docs/claude-code/overview)
+[![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-AI_Coding-111827?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/codex/)
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-AI_Workflows-10A37F?style=for-the-badge&logo=openai&logoColor=white)](https://chatgpt.com/)
+
+</div>
+
+I use AI-assisted development tools as part of engineering workflows for planning, implementation, debugging, and code review. I treat generated changes as code to verify through tests, source inspection, and appropriate release checks.
+
 **Engineering interests:** LLM tool calling · agent runtimes · MCP · semantic search · browser automation · full-stack products · engineering reliability
 
 ## GitHub Activity
 
-<!-- These visual cards use public hosted services and could have occasional outages.
-     For a long-term reliable version, replace them with self-generated SVGs from GitHub Actions. -->
-
 <div align="center">
 
-<img alt="GitHub statistics for YinL-k" height="170" src="https://github-readme-stats.vercel.app/api?username=YinL-k&show_icons=true&theme=transparent&hide_border=true" />
-<img alt="Top languages in public GitHub repositories" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YinL-k&layout=compact&theme=transparent&hide_border=true&langs_count=6" />
+<img alt="Public repository statistics: owned repositories, original projects, stars and recent public commits" src="assets/github-stats.svg" width="49%" />
+<img alt="Top languages across owned public non-fork repositories, weighted by GitHub code bytes" src="assets/top-languages.svg" width="49%" />
 
-<img alt="GitHub activity graph for YinL-k" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=YinL-k&theme=github-compact&hide_border=true" />
+<img alt="Public commit activity calendar from the previous 12 months" src="assets/public-commit-activity.svg" width="100%" />
 
 </div>
 
-<sub>These charts reflect GitHub's accessible contribution and repository data; language distribution is not a measure of proficiency. GitHub's native contribution calendar appears separately on the profile.</sub>
+<sub>Charts are generated from GitHub's public API by [this repository's GitHub Actions workflow](.github/workflows/profile-metrics.yml), rather than an external image host. Public commit activity counts commits authored by this account in owned non-fork public repositories; GitHub's native contribution calendar may also reflect private and other contribution types. Language distribution reflects repository code bytes, not language proficiency. Updates are scheduled daily.</sub>
 
 ---
 
