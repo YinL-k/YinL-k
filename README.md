@@ -95,12 +95,14 @@ I use AI-assisted development tools for planning, implementation, debugging, and
 
 <div align="center">
 
-<img alt="Public repository statistics: owned repositories, original projects, stars and recent public commits" src="assets/github-stats.svg" width="49%" />
-<img alt="Top languages across owned public non-fork repositories, weighted by GitHub code bytes" src="assets/top-languages.svg" width="49%" />
+<img alt="GitHub profile statistics including public repositories and publicly visible contributions" src="assets/github-stats.svg" width="49%" />
+<img alt="Languages in public non-fork repositories by code bytes" src="assets/top-languages.svg" width="49%" />
+
+<img alt="GitHub contribution calendar including anonymized private activity when enabled" src="assets/contribution-calendar.svg" width="100%" />
 
 </div>
 
-<sub>These two cards are generated daily from public GitHub repository data by [this repository's GitHub Actions workflow](.github/workflows/profile-metrics.yml). The statistics card counts public commits in owned, non-fork repositories over the past 12 months. Language percentages are based on public repository code bytes, not proficiency. **For my full contribution history, including anonymized private contributions when enabled, see GitHub's native contribution calendar below this README.** The two totals are intentionally different because GitHub counts additional contribution types and repositories.</sub>
+<sub>Charts are refreshed daily by [GitHub Actions](.github/workflows/profile-metrics.yml). The contribution calendar reads the **publicly visible GitHub profile calendar**, not individual repositories. It includes anonymized private contributions **only if** [Private contributions](https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/manage-visibility-settings-for-private-contributions-and-achievements) is enabled under the profile's Contribution settings. GitHub may show the account owner more contributions than a public visitor. No private code, repository names, commit messages, or credentials are accessed. Language percentages reflect public repository code bytes, not proficiency.</sub>
 
 ---
 
