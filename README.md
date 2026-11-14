@@ -90,11 +90,9 @@ I use AI-assisted development tools as part of engineering workflows for plannin
 <img alt="Public repository statistics: owned repositories, original projects, stars and recent public commits" src="assets/github-stats.svg" width="49%" />
 <img alt="Top languages across owned public non-fork repositories, weighted by GitHub code bytes" src="assets/top-languages.svg" width="49%" />
 
-<img alt="Public commit activity calendar from the previous 12 months" src="assets/public-commit-activity.svg" width="100%" />
-
 </div>
 
-<sub>Charts are generated from GitHub's public API by [this repository's GitHub Actions workflow](.github/workflows/profile-metrics.yml), rather than an external image host. Public commit activity counts commits authored by this account in owned non-fork public repositories; GitHub's native contribution calendar may also reflect private and other contribution types. Language distribution reflects repository code bytes, not language proficiency. Updates are scheduled daily.</sub>
+<sub>These two cards are generated daily from public GitHub repository data by [this repository's GitHub Actions workflow](.github/workflows/profile-metrics.yml). The statistics card counts public commits in owned, non-fork repositories over the past 12 months. Language percentages are based on public repository code bytes, not proficiency. **For my full contribution history, including anonymized private contributions when enabled, see GitHub's native contribution calendar below this README.** The two totals are intentionally different because GitHub counts additional contribution types and repositories.</sub>
 
 ---
 
