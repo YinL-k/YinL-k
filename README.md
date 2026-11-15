@@ -4,60 +4,74 @@
 
 **Software Engineering · AI Systems · Full-Stack Product Development**
 
-Computer Science @ Drew University · Mathematics Minor
+B.S. Computer Science @ Drew University · Mathematics Minor
 
-*Building practical software products, developer tools, and AI-enabled workflows.*
+*Building practical software products, reliable integrations, and useful developer tools.*
 
-[![GitHub](https://img.shields.io/badge/GitHub-YinL--k-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/YinL-k)
-[![Focus: AI Engineering](https://img.shields.io/badge/Focus-AI%20Engineering-2563EB?style=flat-square)](https://github.com/YinL-k)
-[![Focus: Software Engineering](https://img.shields.io/badge/Focus-Software%20Engineering-374151?style=flat-square)](https://github.com/YinL-k)
+[Selected Projects](#selected-projects) · [Engineering Experience](#engineering-experience) · [Research](#applied-ml-research) · [Open Source](#open-source-contributions)
 
 </div>
 
 ## About Me
 
-I build software across the stack—from product and interface design to backend integrations, AI tool orchestration, testing, and delivery. I worked with the early founding team of **Yuanmil (元禧)** on a multi-application platform, and I also build independently released browser extensions and developer tools.
+I am a Computer Science student and hands-on software builder. My experience spans **full-stack applications**, **AI-enabled workflows**, **developer tooling**, and **product design**—from understanding a problem and building an interface to integrating services, testing behavior, and preparing releases.
 
-I am interested in **Software Engineer** and **AI Engineer** roles where I can turn complex requirements into reliable, usable systems.
+I worked with the early founding team of **YuanMil (元禧)** on a multi-application platform, and I build independent open-source tools and browser extensions. I enjoy working across the boundaries between product, frontend, backend, and AI systems.
+
+**Engineering focus:** Software engineering · Full-stack systems · LLM tool calling and agent workflows · API integrations · Engineering reliability
+
+## Selected Projects
+
+These projects cover different areas of my engineering work. Production releases, prototypes, and learning projects are labeled separately.
+
+| Project | Area | What it demonstrates |
+| --- | --- | --- |
+| **[SakuraMeter](https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker)** · [Chrome Web Store](https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki) | Released browser extension | ChatGPT activity and Codex usage dashboards, optional Side Chat, and an **experimental** browser Agent; product development, browser APIs, privacy boundaries, and release workflows. |
+| **[Google Skills Learning Agent](https://github.com/YinL-k/google-skills-learning-agent)** | AI / automation prototype | A guarded TypeScript browser-automation scaffold for extracting page state, evaluating actions, and recording learning notes. |
+| **[Web Launch Console](https://github.com/YinL-k/web-launch-console)** | Developer tooling | A Windows PowerShell/Node.js console for managing web services and process lifecycles, logs, health checks, and optional temporary tunnels. |
+| **[Interactive Vector Fields](https://github.com/YinL-k/vector-fields-project)** · [Live 3D demo](https://yinl-k.github.io/vector-fields-project/3D%20Field.html) | Interactive visualization | 2D/3D vector and field demonstrations built with JavaScript and Three.js. |
+| **[Synchronized Scrolling Reader](https://github.com/YinL-k/synchronized-scrolling-reader)** | Frontend utility | A browser-based two-pane code/text reader with synchronized scrolling, file loading, syntax highlighting, and themes. |
+| **[Pixiv Bookmark Random](https://github.com/YinL-k/Pixiv-Bookmark-Random)** | Browser extension | A Manifest V3 extension using buffering, image preloading, navigation state, and de-duplication for bookmark browsing. |
 
 ## Engineering Experience
 
-### Yuanmil (元禧) · Early Founding Team — Product & Full-Stack Engineering
+### YuanMil (元禧) · Early Founding Team — Full-Stack & Product Engineering
 
-Worked across product design and engineering on a platform spanning consumer-facing experiences, merchant tools, operational interfaces, backend services, and AI integrations.
+*Aug–Nov 2026*
 
-- **Full-stack applications:** Implemented and integrated features involving a **Vue 3 / uni-app / TypeScript** merchant application, **React** operations interfaces, and **Java / Spring Boot** business APIs.
-- **AI tool orchestration:** Worked on AI Concierge flows combining LLM reasoning, structured tool selection, runtime validation, protected backend integrations, and responses grounded in trusted business data.
-- **MCP & authorization:** Contributed to MCP integration, OAuth consent flows, scoped access controls, administration, and audit capabilities.
-- **Business systems:** Worked on merchant/store operations, order workflows, customer support, member/distributor experiences, and payment-related integration paths.
-- **Reliability & delivery:** Contributed to access-control boundaries, regression tests, release preflight checks, deployment documentation, and cross-module handoffs.
-- **Product & UX:** Translated business workflows and design references into application features across interfaces and services.
+I contributed to a multi-application product across merchant experiences, operations interfaces, backend services, and AI integrations. My work crossed engineering, interface design, and product implementation.
 
-*The company repositories are private. This description is intentionally high-level and does not publish proprietary source code, business records, or internal designs. Implementation, verification, and production-release status differ across features.*
+- **Cross-platform applications:** Developed and integrated features across a **Vue 3 / uni-app / TypeScript** merchant app, **React** administration interfaces, and **Java / Spring** business APIs.
+- **AI integrations:** Worked on LLM-assisted intent understanding, structured tool selection, validation, MCP/tool adapters, and business-data-backed responses.
+- **Backend and reliability:** Contributed to business workflows involving orders, permissions, payment-related integrations, state consistency, exception handling, and recovery paths.
+- **Authorization and control:** Worked on OAuth 2.0 / PKCE, scoped access, resource isolation, administration tooling, and audit-related behavior.
+- **Product engineering:** Turned business workflows and interface references into features; coordinated requirements, UX, integration details, testing, and documentation across modules.
 
-## Featured Projects
+**[Read the public YuanMil engineering overview](docs/yuanmil-engineering-overview.md)** for a high-level breakdown of work areas and an illustrative AI-tool integration flow.
 
-| Project | What I Built |
-| --- | --- |
-| **[SakuraMeter](https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker)** | Released Chrome extension for ChatGPT activity and Codex usage monitoring, with optional Side Chat and experimental structured-action browser Agent. [Chrome Web Store](https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki). |
-| **[Google Skills Learning Agent](https://github.com/YinL-k/google-skills-learning-agent)** | Guarded TypeScript browser-automation prototype for extracting lab state, evaluating potential actions, and maintaining learning notes. |
-| **[Web Launch Console](https://github.com/YinL-k/web-launch-console)** | PowerShell/Node.js tool for launching web services, managing process lifecycles, viewing logs, running health checks, and optionally opening a temporary tunnel. |
-| **[Interactive Vector Fields](https://github.com/YinL-k/vector-fields-project)** | Interactive 2D/3D mathematical visualizations using JavaScript and Three.js. |
-| **[Synchronized Scrolling Reader](https://github.com/YinL-k/synchronized-scrolling-reader)** | Browser-based side-by-side code/text viewer with synchronized scrolling, syntax highlighting, and themes. |
-| **[Pixiv Bookmark Random](https://github.com/YinL-k/Pixiv-Bookmark-Random)** | Chrome Manifest V3 extension using buffering, preloading, and state management for bookmark navigation. |
+> **Verification boundary:** The company repositories are private. These are descriptions of my contributions, not claims that I built the entire platform alone or that every implemented component completed production rollout. Internal source code, customer data, and proprietary architecture are not published here.
 
 ## Applied ML Research
 
 ### DiscoveryHub · Drew Summer Science Institute (DSSI)
 
-Contributed to a semantic retrieval pipeline matching research interests with university technology-transfer listings and patent records.
+*Summer 2026 · Semantic retrieval and embedding evaluation*
 
-- Prepared heterogeneous datasets and query–document training/evaluation pairs.
+Contributed to a research project matching research interests with university technology-transfer listings and patent records.
+
+- Prepared heterogeneous records and query–document pairs for retrieval experiments.
 - Fine-tuned and evaluated **Qwen3-Embedding-0.6B** and **multilingual-e5-large**.
-- Analyzed retrieval performance using **Recall@k**, **MRR@10**, and rank-based measures.
-- Documented limitations of proxy research-interest data.
+- Used **Recall@k**, **MRR@10**, and ranking-based evaluation; documented the limitations of proxy research-interest data.
 
-*Research repository is private.*
+*Research repository is private. The experiments should not be interpreted as validated real-world commercial performance.*
+
+## Open-Source Contributions
+
+Examples of contributions merged into projects outside my own repositories:
+
+- **[Pixiv-Shaft #1309](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1309)** — improved filename truncation by Unicode code point and capped extension length.
+- **[Pixiv-Shaft #1310](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1310)** — preserved one-based page numbering semantics for legacy import templates.
+- **[whyfull #19](https://github.com/amlaban65/whyfull/pull/19)** — added repeatable exclude paths for full scans.
 
 ## Languages & Tools
 
@@ -69,27 +83,21 @@ Contributed to a semantic retrieval pipeline matching research interests with un
 
 </div>
 
-### AI-assisted Development Tools
+**Additional engineering work:** REST APIs · SQL · Redis/Lua · OAuth 2.0 / PKCE · MCP · Browser extensions · CI / release checks
+
+### AI-Assisted Development
 
 <div align="center">
-  <a href="https://code.claude.com/" title="Claude Code">
-    <img src="assets/ai-tools/claude-code.svg" alt="Claude Code" width="52" height="52" />
-  </a>
+  <a href="https://code.claude.com/" title="Claude Code"><img src="assets/ai-tools/claude-code.svg" alt="Claude Code" width="46" height="46" /></a>
   &nbsp;&nbsp;
-  <a href="https://openai.com/codex/" title="OpenAI Codex">
-    <img src="assets/ai-tools/codex.svg" alt="OpenAI Codex" width="52" height="52" />
-  </a>
+  <a href="https://openai.com/codex/" title="OpenAI Codex"><img src="assets/ai-tools/codex.svg" alt="OpenAI Codex" width="46" height="46" /></a>
   &nbsp;&nbsp;
-  <a href="https://chatgpt.com/" title="ChatGPT">
-    <img src="assets/ai-tools/chatgpt.svg" alt="ChatGPT" width="52" height="52" />
-  </a>
+  <a href="https://chatgpt.com/" title="ChatGPT"><img src="assets/ai-tools/chatgpt.svg" alt="ChatGPT" width="46" height="46" /></a>
 
   <sub>Claude Code · OpenAI Codex · ChatGPT</sub>
 </div>
 
-I use AI-assisted development tools for planning, implementation, debugging, and code review, with generated changes verified through source inspection, tests, and appropriate release checks.
-
-**Engineering interests:** LLM tool calling · agent runtimes · MCP · semantic search · browser automation · full-stack products · engineering reliability
+I use AI-assisted development tools in planning, implementation, debugging, and review, while checking generated work against source behavior, tests, and relevant release requirements.
 
 ## GitHub Activity
 
@@ -102,14 +110,14 @@ I use AI-assisted development tools for planning, implementation, debugging, and
 
 </div>
 
-<sub>Charts are refreshed daily by [GitHub Actions](.github/workflows/profile-metrics.yml). The contribution calendar reads the **publicly visible GitHub profile calendar**, not individual repositories. It includes anonymized private contributions **only if** [Private contributions](https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/manage-visibility-settings-for-private-contributions-and-achievements) is enabled under the profile's Contribution settings. GitHub may show the account owner more contributions than a public visitor. No private code, repository names, commit messages, or credentials are accessed. Language percentages reflect public repository code bytes, not proficiency.</sub>
+<sub>Charts are refreshed by [GitHub Actions](.github/workflows/profile-metrics.yml). The calendar represents the publicly visible profile contribution graph and may include anonymized private activity when enabled in [GitHub contribution settings](https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/manage-visibility-settings-for-private-contributions-and-achievements). No private source code or repository names are displayed. Language figures are based on public repository code bytes, not proficiency.</sub>
 
 ---
 
 <div align="center">
 
-**Interested in software engineering, applied AI, and building useful products.**
+**Interested in software engineering, applied AI, research, and building useful products.**
 
-[Explore my repositories](https://github.com/YinL-k?tab=repositories)
+[Explore all repositories](https://github.com/YinL-k?tab=repositories)
 
 </div>
