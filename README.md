@@ -14,11 +14,11 @@ B.S. Computer Science @ Drew University · Mathematics Minor
 
 ## About Me
 
-I am a Computer Science student and hands-on software builder. My experience spans **full-stack applications**, **AI-enabled workflows**, **developer tooling**, and **product design**—from understanding a problem and building an interface to integrating services, testing behavior, and preparing releases.
+I am a Computer Science student and hands-on software builder. My experience spans **full-stack applications**, **payment-system architecture**, **AI-enabled workflows**, **developer tooling**, and **product design**—from understanding a problem and building an interface to integrating services, testing behavior, and preparing releases.
 
 I worked with the early founding team of **YuanMil (元禧)** on a multi-application platform, and I build independent open-source tools and browser extensions. I enjoy working across the boundaries between product, frontend, backend, and AI systems.
 
-**Engineering focus:** Software engineering · Full-stack systems · LLM tool calling and agent workflows · API integrations · Engineering reliability
+**Engineering focus:** Software engineering · Full-stack systems · Payment architecture and reliability · LLM tool calling and agent workflows · API integrations
 
 ## Selected Projects
 
@@ -39,15 +39,16 @@ These projects cover different areas of my engineering work. Production releases
 
 *Aug–Nov 2026*
 
-I contributed to a multi-application product across merchant experiences, operations interfaces, backend services, and AI integrations. My work crossed engineering, interface design, and product implementation.
+I contributed to a multi-application product across merchant experiences, operations interfaces, backend services, payment infrastructure, and AI integrations. My work crossed system architecture, engineering, interface design, and product implementation.
 
 - **Cross-platform applications:** Developed and integrated features across a **Vue 3 / uni-app / TypeScript** merchant app, **React** administration interfaces, and **Java / Spring** business APIs.
 - **AI integrations:** Worked on LLM-assisted intent understanding, structured tool selection, validation, MCP/tool adapters, and business-data-backed responses.
-- **Backend and reliability:** Contributed to business workflows involving orders, permissions, payment-related integrations, state consistency, exception handling, and recovery paths.
+- **Payment architecture:** **Designed and implemented** Java / Spring payment gateway and routing abstractions, collection/refund state verification, persistent execution records, idempotency and recovery paths; worked on WeChat commission payout and unified platform collection flows. Actual real-money channel acceptance is not claimed.
+- **Backend and reliability:** Developed business workflows involving orders, permissions, transactional consistency, exception handling, and recovery paths.
 - **Authorization and control:** Worked on OAuth 2.0 / PKCE, scoped access, resource isolation, administration tooling, and audit-related behavior.
 - **Product engineering:** Turned business workflows and interface references into features; coordinated requirements, UX, integration details, testing, and documentation across modules.
 
-**[Read the public YuanMil engineering overview](docs/yuanmil-engineering-overview.md)** for a high-level breakdown of work areas and an illustrative AI-tool integration flow.
+**[Read the public YuanMil engineering overview](docs/yuanmil-engineering-overview.md)** for a high-level breakdown of work areas and conceptual **payment architecture and AI-tool integration diagrams**.
 
 > **Verification boundary:** The company repositories are private. These are descriptions of my contributions, not claims that I built the entire platform alone or that every implemented component completed production rollout. Internal source code, customer data, and proprietary architecture are not published here.
 
@@ -83,7 +84,7 @@ Examples of contributions merged into projects outside my own repositories:
 
 </div>
 
-**Additional engineering work:** REST APIs · SQL · Redis/Lua · OAuth 2.0 / PKCE · MCP · Browser extensions · CI / release checks
+**Additional engineering work:** REST APIs · SQL · Payment gateways & idempotency · Redis/Lua · OAuth 2.0 / PKCE · MCP · Browser extensions · CI / release checks
 
 ### AI-Assisted Development
 
