@@ -4,9 +4,9 @@
 
 **Software Engineering · AI Systems · Full-Stack Product Development**
 
-B.S. Computer Science @ Drew University · Mathematics Minor
+Computer Science Undergraduate @ Drew University · Mathematics Minor
 
-*Building practical software products, reliable integrations, and useful developer tools.*
+*Building web apps, backend systems, AI integrations, and developer tools.*
 
 [Selected Projects](#selected-projects) · [Engineering Experience](#engineering-experience) · [Research](#applied-ml-research) · [Open Source](#open-source-contributions)
 
@@ -14,21 +14,17 @@ B.S. Computer Science @ Drew University · Mathematics Minor
 
 ## About Me
 
-I am a Computer Science student and hands-on software builder. My experience spans **full-stack applications**, **payment-system architecture**, **AI-enabled workflows**, **developer tooling**, and **product design**—from understanding a problem and building an interface to integrating services, testing behavior, and preparing releases.
-
-I worked with the early founding team of **YuanMil (元禧)** on a multi-application platform, and I build independent open-source tools and browser extensions. I enjoy working across the boundaries between product, frontend, backend, and AI systems.
-
-**Engineering focus:** Software engineering · Full-stack systems · Payment architecture and reliability · LLM tool calling and agent workflows · API integrations
+I'm a Computer Science undergraduate at Drew University. At **YuanMil (元禧)**, I worked with the early founding team on merchant applications, operations tools, payment architecture, backend services, and AI integrations. I also build and release browser extensions and developer tools.
 
 ## Selected Projects
 
-These projects cover different areas of my engineering work. Production releases, prototypes, and learning projects are labeled separately.
+A mix of released software, working prototypes, and interactive projects.
 
 | Project | Area | What it demonstrates |
 | --- | --- | --- |
-| **[SakuraMeter](https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker)** · [Chrome Web Store](https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki) | Released browser extension | ChatGPT activity and Codex usage dashboards, optional Side Chat, and an **experimental** browser Agent; product development, browser APIs, privacy boundaries, and release workflows. |
-| **[Google Skills Learning Agent](https://github.com/YinL-k/google-skills-learning-agent)** | AI / automation prototype | A guarded TypeScript browser-automation scaffold for extracting page state, evaluating actions, and recording learning notes. |
-| **[Web Launch Console](https://github.com/YinL-k/web-launch-console)** | Developer tooling | A Windows PowerShell/Node.js console for managing web services and process lifecycles, logs, health checks, and optional temporary tunnels. |
+| **[SakuraMeter](https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker)** · [Chrome Web Store](https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki) | Released browser extension | Chrome extension for ChatGPT activity and Codex usage tracking, with Side Chat and an experimental browser agent. |
+| **[Google Skills Learning Agent](https://github.com/YinL-k/google-skills-learning-agent)** | AI / automation prototype | TypeScript browser-automation prototype that reads page state, evaluates safe actions, and records learning notes. |
+| **[Web Launch Console](https://github.com/YinL-k/web-launch-console)** | Developer tooling | Windows tool for launching web apps, managing processes, checking service health, and viewing logs. |
 | **[Interactive Vector Fields](https://github.com/YinL-k/vector-fields-project)** · [Live 3D demo](https://yinl-k.github.io/vector-fields-project/3D%20Field.html) | Interactive visualization | 2D/3D vector and field demonstrations built with JavaScript and Three.js. |
 | **[Synchronized Scrolling Reader](https://github.com/YinL-k/synchronized-scrolling-reader)** | Frontend utility | A browser-based two-pane code/text reader with synchronized scrolling, file loading, syntax highlighting, and themes. |
 | **[Pixiv Bookmark Random](https://github.com/YinL-k/Pixiv-Bookmark-Random)** | Browser extension | A Manifest V3 extension using buffering, image preloading, navigation state, and de-duplication for bookmark browsing. |
@@ -39,18 +35,14 @@ These projects cover different areas of my engineering work. Production releases
 
 *Aug–Nov 2026*
 
-I contributed to a multi-application product across merchant experiences, operations interfaces, backend services, payment infrastructure, and AI integrations. My work crossed system architecture, engineering, interface design, and product implementation.
+Worked across YuanMil's merchant app, operations interfaces, Java backend, payment system, and AI features.
 
-- **Cross-platform applications:** Developed and integrated features across a **Vue 3 / uni-app / TypeScript** merchant app, **React** administration interfaces, and **Java / Spring** business APIs.
-- **AI integrations:** Worked on LLM-assisted intent understanding, structured tool selection, validation, MCP/tool adapters, and business-data-backed responses.
-- **Payment architecture:** **Designed and implemented** Java / Spring payment gateway and routing abstractions, collection/refund state verification, persistent execution records, idempotency and recovery paths; worked on WeChat commission payout and unified platform collection flows. Actual real-money channel acceptance is not claimed.
-- **Backend and reliability:** Developed business workflows involving orders, permissions, transactional consistency, exception handling, and recovery paths.
-- **Authorization and control:** Worked on OAuth 2.0 / PKCE, scoped access, resource isolation, administration tooling, and audit-related behavior.
-- **Product engineering:** Turned business workflows and interface references into features; coordinated requirements, UX, integration details, testing, and documentation across modules.
+- **Full-stack development:** Built features in a **Vue 3 / uni-app / TypeScript** merchant app, **React** operations interfaces, and **Java / Spring Boot** APIs.
+- **Payment architecture:** Designed and implemented payment gateway routing, transaction verification, idempotency, and recovery mechanisms; also worked on WeChat commission withdrawal and unified platform collection.
+- **AI systems:** Developed LLM-driven tool selection and integrations with MCP and backend business APIs, including validation and authorization checks.
+- **Backend & product:** Worked on order and merchant workflows, OAuth 2.0 / PKCE access control, and product/interface design.
 
-**[Read the public YuanMil engineering overview](docs/yuanmil-engineering-overview.md)** for a high-level breakdown of work areas and conceptual **payment architecture and AI-tool integration diagrams**.
-
-> **Verification boundary:** The company repositories are private. These are descriptions of my contributions, not claims that I built the entire platform alone or that every implemented component completed production rollout. Internal source code, customer data, and proprietary architecture are not published here.
+[YuanMil engineering case study](docs/yuanmil-engineering-overview.md) — payment design, AI integration, and technical details.
 
 ## Applied ML Research
 
@@ -64,11 +56,11 @@ Contributed to a research project matching research interests with university te
 - Fine-tuned and evaluated **Qwen3-Embedding-0.6B** and **multilingual-e5-large**.
 - Used **Recall@k**, **MRR@10**, and ranking-based evaluation; documented the limitations of proxy research-interest data.
 
-*Research repository is private. The experiments should not be interpreted as validated real-world commercial performance.*
+*Research repository is private.*
 
 ## Open-Source Contributions
 
-Examples of contributions merged into projects outside my own repositories:
+Selected pull requests merged into other open-source projects:
 
 - **[Pixiv-Shaft #1309](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1309)** — improved filename truncation by Unicode code point and capped extension length.
 - **[Pixiv-Shaft #1310](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1310)** — preserved one-based page numbering semantics for legacy import templates.
@@ -98,7 +90,7 @@ Examples of contributions merged into projects outside my own repositories:
   <sub>Claude Code · OpenAI Codex · ChatGPT</sub>
 </div>
 
-I use AI-assisted development tools in planning, implementation, debugging, and review, while checking generated work against source behavior, tests, and relevant release requirements.
+I use these tools to help build and review software; changes are checked against code and tests.
 
 ## GitHub Activity
 
@@ -111,7 +103,7 @@ I use AI-assisted development tools in planning, implementation, debugging, and 
 
 </div>
 
-<sub>Charts are refreshed by [GitHub Actions](.github/workflows/profile-metrics.yml). The calendar represents the publicly visible profile contribution graph and may include anonymized private activity when enabled in [GitHub contribution settings](https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/manage-visibility-settings-for-private-contributions-and-achievements). No private source code or repository names are displayed. Language figures are based on public repository code bytes, not proficiency.</sub>
+<sub>Updated by [GitHub Actions](.github/workflows/profile-metrics.yml). Contribution counts use GitHub's publicly visible profile data (including anonymous private activity if enabled); language breakdowns reflect public code bytes.</sub>
 
 ---
 
