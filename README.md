@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner.svg?v=d39b834" alt="Xianzhuo (Ari) Yin — CTO at YuanMil, Platform, Payments and Applied AI" width="100%" />
+  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner.svg?v=4bf4156ac3f3" alt="Xianzhuo (Ari) Yin — CTO at YuanMil, Platform, Payments and Applied AI" width="100%" />
   <br/>
-  <strong>CTO @ YuanMil (元禧) · Computer Science @ Drew University · Mathematics Minor</strong>
-  <br/><br/>
+  <h2>CTO @ YuanMil (元禧)</h2>
+  <p><sub>Computer Science @ Drew University · Mathematics Minor</sub></p>
+  <br/>
   <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/YuanMil%20OS-App%20Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="YuanMil OS on the App Store" /></a>
   <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/SakuraMeter-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SakuraMeter on Chrome Web Store" /></a>
   <a href="https://github.com/YinL-k?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Projects-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories" /></a>

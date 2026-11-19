@@ -24,8 +24,8 @@
   <path d="M730 310C860 210 920 320 1040 210S1150 150 1220 105" fill="none" stroke="url(#line)" stroke-opacity=".5" stroke-width="1.5"/>
   <g fill="#fff">
     <text x="76" y="112" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="750" letter-spacing="-.8">Xianzhuo (Ari) Yin</text>
-    <text x="79" y="164" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#dbeafe">CTO @ YUANMIL · PLATFORM · PAYMENTS · APPLIED AI</text>
-    <text x="80" y="213" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" fill="#c5d8f2">Leading technical direction and building reliable products, from product surface to backend infrastructure.</text>
+    <text x="79" y="164" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="800" letter-spacing=".4" fill="#ffffff">CTO @ YUANMIL</text>
+    <text x="80" y="213" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" fill="#c5d8f2">PLATFORM ENGINEERING · PAYMENT SYSTEMS · APPLIED AI</text>
   </g>
   <g transform="translate(80 258)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" fill="#dbeafe">
     <text x="0" y="0">DREW UNIVERSITY</text>
