@@ -1,51 +1,77 @@
 <div align="center">
-
-# Xianzhuo (Ari) Yin
-
-**Founding Engineer · Platform Architecture · Payment Systems · Applied AI**
-
-Computer Science Undergraduate @ Drew University · Mathematics Minor
-
-*Designing and building software across product experiences, backend infrastructure, and AI-powered workflows.*
-
-[What I'm Shipping](#what-im-shipping) · [Selected Projects](#selected-projects) · [Engineering Experience](#engineering-experience) · [Research](#applied-ml-research) · [Open Source](#open-source-contributions)
-
+  <img src="assets/profile-banner.svg" alt="Xianzhuo (Ari) Yin — Founding Engineer, Platform, Payments and Applied AI" width="100%" />
+  <br/>
+  <strong>Computer Science @ Drew University · Mathematics Minor</strong>
+  <br/>
+  <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/YuanMil%20OS-App%20Store-111827?style=for-the-badge&logo=apple&logoColor=white" alt="YuanMil OS on the App Store" /></a>
+  <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/SakuraMeter-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SakuraMeter on Chrome Web Store" /></a>
+  <a href="https://github.com/YinL-k?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore%20Projects-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub repositories" /></a>
 </div>
+
+---
 
 ## About Me
 
 I'm a Computer Science undergraduate at Drew University. As part of **YuanMil (元禧)'s early founding engineering team**, I design and build across merchant products, payment infrastructure, internal operations systems, and AI integrations. My work spans architecture and hands-on implementation—from transaction verification and recovery to full-stack business workflows and LLM/MCP tool integrations. I also build and release browser extensions and developer tools.
 
-## What I'm Shipping
+## 🚀 What I'm Shipping
 
-### 元禧 OS · YuanMil
-
-A released iOS app from the YuanMil ecosystem. My contributions span the wider product stack behind the mobile experience, including merchant workflows, operations tools, payment services, backend systems, and AI integrations.
-
-[![App Store](https://img.shields.io/badge/App%20Store-View%20the%20App-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285)
-
-**Engineering contributions**
-- **Platform & product engineering:** Built merchant-facing features with Vue 3, uni-app, and TypeScript; operations interfaces with React; and backend APIs with Java and Spring Boot.
-- **Payment architecture:** Designed and implemented gateway/account routing, transaction verification, idempotency, and recovery mechanisms for collection, refund, and settlement-related workflows.
-- **AI systems:** Developed LLM-based intent understanding and structured tool selection, integrating MCP and business APIs with application-side argument validation and authorization checks.
-- **Engineering delivery:** Worked across modules on implementation, regression testing, and deployment documentation.
-
-**Stack:** `Vue 3` · `uni-app` · `TypeScript` · `React` · `Java` · `Spring Boot` · `Redis/Lua` · `MCP`
-
-[Read the YuanMil engineering case study](docs/yuanmil-engineering-overview.md) · [View the App Store listing](https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>元禧 OS · YuanMil</h3>
+      <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285">
+        <img src="assets/yuanmil-platform.svg" alt="Illustrative YuanMil OS platform engineering map showing product surfaces, backend services, payment systems and AI integrations" width="100%" />
+      </a>
+      <p><strong>Released iOS product · Platform engineering</strong></p>
+      <p>Working across the product ecosystem behind member and merchant experiences, operations tooling, backend services, payment workflows, and AI integrations.</p>
+      <p><a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285">App Store</a> · <a href="docs/yuanmil-engineering-overview.md">Engineering case study</a></p>
+      <p><sub>Vue 3 · uni-app · React · Java · Spring Boot · Redis/Lua · MCP</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>SakuraMeter</h3>
+      <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker">
+        <img src="https://raw.githubusercontent.com/YinL-k/chatgpt-codex-usage-reset-tracker/main/store-assets/en/preview/large-promotional.jpg?v=3a031125" alt="SakuraMeter browser extension product preview" width="100%" />
+      </a>
+      <p><strong>Released Chrome extension · Developer productivity</strong></p>
+      <p>Tracks ChatGPT activity and Codex usage windows, reset times, and experimental public reset forecasts. Also includes Side Chat and an experimental browser agent.</p>
+      <p><a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki">Chrome Web Store</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker/releases">Releases</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker">Source</a></p>
+      <p><sub>TypeScript · Chrome Extension APIs · Browser automation · Local-first data</sub></p>
+    </td>
+  </tr>
+</table>
 
 ## Selected Projects
 
-A mix of released software, working prototypes, and interactive projects.
-
-| Project | Area | What it demonstrates |
-| --- | --- | --- |
-| **[SakuraMeter](https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker)** · [Chrome Web Store](https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki) | Released browser extension | Chrome extension for ChatGPT activity and Codex usage tracking, with Side Chat and an experimental browser agent. |
-| **[Google Skills Learning Agent](https://github.com/YinL-k/google-skills-learning-agent)** | AI / automation prototype | TypeScript browser-automation prototype that reads page state, evaluates safe actions, and records learning notes. |
-| **[Web Launch Console](https://github.com/YinL-k/web-launch-console)** | Developer tooling | Windows tool for launching web apps, managing processes, checking service health, and viewing logs. |
-| **[Interactive Vector Fields](https://github.com/YinL-k/vector-fields-project)** · [Live 3D demo](https://yinl-k.github.io/vector-fields-project/3D%20Field.html) | Interactive visualization | 2D/3D vector and field demonstrations built with JavaScript and Three.js. |
-| **[Synchronized Scrolling Reader](https://github.com/YinL-k/synchronized-scrolling-reader)** | Frontend utility | A browser-based two-pane code/text reader with synchronized scrolling, file loading, syntax highlighting, and themes. |
-| **[Pixiv Bookmark Random](https://github.com/YinL-k/Pixiv-Bookmark-Random)** | Browser extension | A Manifest V3 extension using buffering, image preloading, navigation state, and de-duplication for bookmark browsing. |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/YinL-k/google-skills-learning-agent">Google Skills Learning Agent</a></h3>
+      <a href="https://github.com/YinL-k/google-skills-learning-agent">
+        <img src="https://raw.githubusercontent.com/YinL-k/google-skills-learning-agent/main/assets/learning-agent.png" alt="Google Skills Learning Agent project visual" width="100%" />
+      </a>
+      <p>Guarded browser-automation prototype for reading course/lab pages, extracting visible state, validating safe next actions, and maintaining learning notes.</p>
+      <sub>TypeScript · Browser automation · Safety checks</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/YinL-k/web-launch-console">Web Launch Console</a></h3>
+      <p>Windows control panel for launching web apps, managing related processes, checking service health, viewing logs, and optionally creating Cloudflare Quick Tunnels.</p>
+      <sub>PowerShell · WPF · Node.js · Process management</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/YinL-k/vector-fields-project">Interactive Vector Fields</a></h3>
+      <p>Interactive 2D/3D vector addition and vector-field demonstrations, including particle motion visualizations built with JavaScript and Three.js.</p>
+      <a href="https://yinl-k.github.io/vector-fields-project/3D%20Field.html">Open live 3D field demo</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/YinL-k/synchronized-scrolling-reader">Synchronized Scrolling Reader</a></h3>
+      <p>A browser-based two-pane code/text reader with synchronized scrolling, local file loading, syntax highlighting, and light/dark themes.</p>
+      <a href="https://github.com/YinL-k/synchronized-scrolling-reader">View repository</a>
+    </td>
+  </tr>
+</table>
 
 ## Engineering Experience
 
