@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner.svg?v=8b7fd8a37e25" alt="Xianzhuo (Ari) Yin — CTO at YuanMil; Platform Engineering, Payment Systems, Applied AI; Computer Science at Drew University, Mathematics Minor" width="100%" />
+  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner.svg?v=ab8497b31a93" alt="Xianzhuo (Ari) Yin — Co-Founder & CTO at YuanMil; Platform Engineering, Payment Systems, Applied AI; Computer Science at Drew University, Mathematics Minor" width="100%" />
   <p>
     <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/YuanMil%20OS-App%20Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="YuanMil OS on the App Store" /></a>
     <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/SakuraMeter-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SakuraMeter on Chrome Web Store" /></a>
@@ -20,7 +20,7 @@ I lead technical direction and build software hands-on across multi-surface prod
       <h3>YuanMil OS · 元禧</h3>
       <p><strong>Hospitality platform · iOS · WeChat Mini Program · Merchant &amp; Operations Systems</strong></p>
       <p>A multi-surface hospitality platform connecting member experiences, merchant workflows, operations tools, hotel services, and shared backend systems.</p>
-      <p><strong>My scope:</strong> CTO — technical direction, platform architecture, payment infrastructure, AI integrations, and engineering delivery.</p>
+      <p><strong>My scope:</strong> Co-Founder &amp; CTO — technical direction, platform architecture, payment infrastructure, AI integrations, and engineering delivery.</p>
       <p>
         <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/App%20Store-Live-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store live" /></a>
         <a href="https://yuanmilos.com/"><img src="https://img.shields.io/badge/Website-Live-2EA44F?style=flat-square" alt="Website live" /></a>
@@ -46,12 +46,12 @@ I lead technical direction and build software hands-on across multi-surface prod
   </tr>
 </table>
 
-## CTO & Engineering Leadership
+## Co-Founder & CTO · Engineering Leadership
 
-### YuanMil (元禧) · Chief Technology Officer
+### YuanMil (元禧) · Co-Founder & Chief Technology Officer
 *Aug–Nov 2026*
 
-I lead technical direction and remain hands-on across a hospitality platform that includes a member-facing app, WeChat Mini Program, merchant/business app, operations center, hotel console, public website, and shared Java backend.
+As Co-Founder & CTO, I lead technical direction and remain hands-on across a hospitality platform that includes a member-facing app, WeChat Mini Program, merchant/business app, operations center, hotel console, public website, and shared Java backend.
 
 **Technical ownership**
 
