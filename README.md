@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="Xianzhuo (Ari) Yin — Founding Engineer, Platform, Payments and Applied AI" width="100%" />
+  <img src="assets/profile-banner.svg" alt="Xianzhuo (Ari) Yin — CTO at YuanMil, Platform, Payments and Applied AI" width="100%" />
   <br/>
-  <strong>Computer Science @ Drew University · Mathematics Minor</strong>
+  <strong>CTO @ YuanMil (元禧) · Computer Science @ Drew University · Mathematics Minor</strong>
   <br/><br/>
   <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/YuanMil%20OS-App%20Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="YuanMil OS on the App Store" /></a>
   <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/SakuraMeter-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SakuraMeter on Chrome Web Store" /></a>
   <a href="https://github.com/YinL-k?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Projects-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories" /></a>
 </div>
 
-I build and ship software across product experiences, backend infrastructure, payment systems, and applied AI. I'm a Computer Science undergraduate at Drew University and part of YuanMil's early engineering team.
+I'm the CTO of YuanMil (元禧), where I lead technical direction and hands-on engineering across a members-only hospitality platform. My work spans backend infrastructure, payment systems, merchant and member experiences, and applied AI. I'm also a Computer Science undergraduate at Drew University with a Mathematics minor.
 
 ## 🚀 What I'm shipping
 
@@ -20,7 +20,7 @@ I build and ship software across product experiences, backend infrastructure, pa
       </a>
       <h3>YuanMil OS · 元禧</h3>
       <p>A members-only hospitality platform spanning an iOS app, WeChat Mini Program, merchant workflows, and operations consoles.</p>
-      <p>I contribute to platform engineering across payment reliability, backend services, merchant and member workflows, and AI integrations.</p>
+      <p>As CTO, I lead platform engineering across payment reliability, backend services, merchant and member workflows, and AI integrations.</p>
       <p>
         <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/App%20Store-live-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store" /></a>
         <a href="https://yuanmilos.com/"><img src="https://img.shields.io/badge/Website-live-2EA44F?style=flat-square" alt="Website" /></a>
@@ -55,13 +55,14 @@ I build and ship software across product experiences, backend infrastructure, pa
 
 ## Engineering Experience
 
-### YuanMil (元禧) · Founding Engineer — Platform, Payments & AI
+### YuanMil (元禧) · Chief Technology Officer (CTO)
 *Aug–Nov 2026*
 
+- **Technical leadership:** Lead technical direction and architecture while staying hands-on with core platform engineering and delivery.
 - **Payment systems:** Designed and implemented gateway routing, transaction verification, idempotency, and recovery workflows for collection, refund, and settlement-related flows.
 - **Platform engineering:** Built merchant-facing features, operations interfaces, and Java/Spring Boot backend APIs across multiple business modules.
 - **AI integrations:** Developed LLM-based intent understanding and structured tool selection, integrating MCP and business APIs with argument validation and authorization checks.
-- **Engineering delivery:** Contributed to cross-module implementation, regression testing, and deployment documentation.
+- **Engineering delivery:** Drive cross-module implementation, regression testing, release quality, and deployment documentation.
 
 [Engineering case study](docs/yuanmil-engineering-overview.md)
 
