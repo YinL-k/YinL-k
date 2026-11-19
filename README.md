@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="Xianzhuo (Ari) Yin — CTO at YuanMil, Platform, Payments and Applied AI" width="100%" />
+  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner.svg?v=d39b834" alt="Xianzhuo (Ari) Yin — CTO at YuanMil, Platform, Payments and Applied AI" width="100%" />
   <br/>
   <strong>CTO @ YuanMil (元禧) · Computer Science @ Drew University · Mathematics Minor</strong>
   <br/><br/>
