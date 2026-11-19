@@ -2,11 +2,11 @@
 
 # Xianzhuo (Ari) Yin
 
-**Software Engineering · AI Systems · Full-Stack Product Development**
+**Founding Engineer · Platform Architecture · Payment Systems · Applied AI**
 
 Computer Science Undergraduate @ Drew University · Mathematics Minor
 
-*Building web apps, backend systems, AI integrations, and developer tools.*
+*Designing and building software across product experiences, backend infrastructure, and AI-powered workflows.*
 
 [What I'm Shipping](#what-im-shipping) · [Selected Projects](#selected-projects) · [Engineering Experience](#engineering-experience) · [Research](#applied-ml-research) · [Open Source](#open-source-contributions)
 
@@ -14,22 +14,23 @@ Computer Science Undergraduate @ Drew University · Mathematics Minor
 
 ## About Me
 
-I'm a Computer Science undergraduate at Drew University. At **YuanMil (元禧)**, I worked with the early founding team on merchant applications, operations tools, payment architecture, backend services, and AI integrations. I also build and release browser extensions and developer tools.
+I'm a Computer Science undergraduate at Drew University. As part of **YuanMil (元禧)'s early founding engineering team**, I design and build across merchant products, payment infrastructure, internal operations systems, and AI integrations. My work spans architecture and hands-on implementation—from transaction verification and recovery to full-stack business workflows and LLM/MCP tool integrations. I also build and release browser extensions and developer tools.
 
 ## What I'm Shipping
 
 ### 元禧 OS · YuanMil
 
-A released iOS app from the YuanMil ecosystem. Alongside the mobile product, I contributed to the wider product stack spanning merchant workflows, operations tools, payments, backend services, and AI integrations.
+A released iOS app from the YuanMil ecosystem. My contributions span the wider product stack behind the mobile experience, including merchant workflows, operations tools, payment services, backend systems, and AI integrations.
 
 [![App Store](https://img.shields.io/badge/App%20Store-View%20the%20App-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285)
 
-**What I worked on**
-- **Full-stack product engineering:** Merchant-facing features with Vue 3, uni-app, and TypeScript; operations interfaces with React; backend APIs with Java and Spring Boot.
-- **Payments:** Gateway routing, transaction verification, idempotency, recovery flows, and WeChat payment workflows.
-- **AI integrations:** LLM-driven tool selection and MCP integrations with business APIs, including validation and authorization checks.
+**Engineering contributions**
+- **Platform & product engineering:** Built merchant-facing features with Vue 3, uni-app, and TypeScript; operations interfaces with React; and backend APIs with Java and Spring Boot.
+- **Payment architecture:** Designed and implemented gateway/account routing, transaction verification, idempotency, and recovery mechanisms for collection, refund, and settlement-related workflows.
+- **AI systems:** Developed LLM-based intent understanding and structured tool selection, integrating MCP and business APIs with application-side argument validation and authorization checks.
+- **Engineering delivery:** Worked across modules on implementation, regression testing, and deployment documentation.
 
-**Stack:** `Vue 3` · `uni-app` · `TypeScript` · `React` · `Java` · `Spring Boot` · `MCP`
+**Stack:** `Vue 3` · `uni-app` · `TypeScript` · `React` · `Java` · `Spring Boot` · `Redis/Lua` · `MCP`
 
 [Read the YuanMil engineering case study](docs/yuanmil-engineering-overview.md) · [View the App Store listing](https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285)
 
@@ -48,18 +49,18 @@ A mix of released software, working prototypes, and interactive projects.
 
 ## Engineering Experience
 
-### YuanMil (元禧) · Early Founding Team — Full-Stack & Product Engineering
+### YuanMil (元禧) · Founding Engineer — Platform, Payments & AI
 
 *Aug–Nov 2026*
 
-Worked across YuanMil's merchant app, operations interfaces, Java backend, payment system, and AI features.
+Part of the early engineering team building YuanMil's merchant products, internal operations tools, backend services, payment workflows, and AI capabilities.
 
-- **Full-stack development:** Built features in a **Vue 3 / uni-app / TypeScript** merchant app, **React** operations interfaces, and **Java / Spring Boot** APIs.
-- **Payment architecture:** Designed and implemented payment gateway routing, transaction verification, idempotency, and recovery mechanisms; also worked on WeChat commission withdrawal and unified platform collection.
-- **AI systems:** Developed LLM-driven tool selection and integrations with MCP and backend business APIs, including validation and authorization checks.
-- **Backend & product:** Worked on order and merchant workflows, OAuth 2.0 / PKCE access control, and product/interface design.
+- **Payment architecture & reliability:** Designed and implemented gateway/account routing, transaction verification, idempotency, and recovery mechanisms for collection, refund, and settlement-related workflows. Built automated checks using simulated payment-channel responses.
+- **AI systems & access control:** Developed LLM-based intent understanding and structured tool selection, with MCP/business API integrations, argument validation, authorization checks, and OAuth 2.0 / PKCE-related work.
+- **Full-stack platform engineering:** Built Vue 3 / uni-app / TypeScript merchant features, React operations interfaces, and Java / Spring Boot backend APIs.
+- **Business workflows & delivery:** Worked on merchant/store operations, orders, member/distributor experiences, asynchronous processing, cross-module coordination, regression tests, and deployment documentation.
 
-[YuanMil engineering case study](docs/yuanmil-engineering-overview.md) — payment design, AI integration, and technical details.
+[YuanMil engineering case study](docs/yuanmil-engineering-overview.md) — payment design, AI integration, architecture, and implementation details.
 
 ## Applied ML Research
 
@@ -126,7 +127,7 @@ I use these tools to help build and review software; changes are checked against
 
 <div align="center">
 
-**Interested in software engineering, applied AI, research, and building useful products.**
+**Building useful products and reliable systems at the intersection of platform engineering, payments, and applied AI.**
 
 [Explore all repositories](https://github.com/YinL-k?tab=repositories)
 
