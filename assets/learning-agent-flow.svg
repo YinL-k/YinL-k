@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+  <title id="title">Google Skills Learning Agent workflow</title>
+  <desc id="desc">Illustrative workflow: inspect a learning page, extract visible state, assess action risk, validate a safe next step, and record learning notes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10223c"/><stop offset="1" stop-color="#1b4560"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
+  </defs>
+  <rect width="1100" height="430" rx="22" fill="url(#bg)"/>
+  <text x="52" y="62" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750">GUARDED LEARNING AUTOMATION</text>
+  <text x="54" y="94" fill="#b8d5ec" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">A safe, observable workflow for course and lab pages</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <rect x="45" y="155" width="180" height="145" rx="15" fill="#1d3d5e" stroke="#4b83ad"/>
+    <text x="135" y="197" fill="#7dd3fc" font-size="14" font-weight="700">01</text>
+    <text x="135" y="230" fill="#fff" font-size="17" font-weight="700">Inspect page</text>
+    <text x="135" y="258" fill="#c6d8e9" font-size="12">Visible course</text><text x="135" y="278" fill="#c6d8e9" font-size="12">and lab state</text>
+    <rect x="260" y="155" width="180" height="145" rx="15" fill="#1d3d5e" stroke="#4b83ad"/>
+    <text x="350" y="197" fill="#7dd3fc" font-size="14" font-weight="700">02</text>
+    <text x="350" y="230" fill="#fff" font-size="17" font-weight="700">Extract state</text>
+    <text x="350" y="258" fill="#c6d8e9" font-size="12">Read structured</text><text x="350" y="278" fill="#c6d8e9" font-size="12">page information</text>
+    <rect x="475" y="155" width="180" height="145" rx="15" fill="#1d3d5e" stroke="#4b83ad"/>
+    <text x="565" y="197" fill="#7dd3fc" font-size="14" font-weight="700">03</text>
+    <text x="565" y="230" fill="#fff" font-size="17" font-weight="700">Assess risk</text>
+    <text x="565" y="258" fill="#c6d8e9" font-size="12">Classify action</text><text x="565" y="278" fill="#c6d8e9" font-size="12">and ambiguity</text>
+    <rect x="690" y="155" width="180" height="145" rx="15" fill="#1d3d5e" stroke="#4b83ad"/>
+    <text x="780" y="197" fill="#5eead4" font-size="14" font-weight="700">04</text>
+    <text x="780" y="230" fill="#fff" font-size="17" font-weight="700">Validate step</text>
+    <text x="780" y="258" fill="#c6d8e9" font-size="12">Allow only safe,</text><text x="780" y="278" fill="#c6d8e9" font-size="12">clear next actions</text>
+    <rect x="905" y="155" width="150" height="145" rx="15" fill="#174b53" stroke="#4ca99c"/>
+    <text x="980" y="197" fill="#5eead4" font-size="14" font-weight="700">05</text>
+    <text x="980" y="230" fill="#fff" font-size="17" font-weight="700">Record</text>
+    <text x="980" y="258" fill="#c6e8e4" font-size="12">Learning</text><text x="980" y="278" fill="#c6e8e4" font-size="12">notes</text>
+  </g>
+  <g stroke="url(#accent)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M225 228H252M244 220L253 228L244 236"/>
+    <path d="M440 228H467M459 220L468 228L459 236"/>
+    <path d="M655 228H682M674 220L683 228L674 236"/>
+    <path d="M870 228H897M889 220L898 228L889 236"/>
+  </g>
+  <text x="550" y="365" text-anchor="middle" fill="#9bb9d3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Illustrative workflow based on the project's documented MVP safety model</text>
+</svg>
