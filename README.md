@@ -56,7 +56,7 @@ Built a MapLibre interaction demo with continuous zoom, animated cluster transit
 
 ### YuanMil Hotel Operations Console (Internal)
 
-[![YuanMil Console showing the date picker and docked map animations, hotel search and rates, and a daily commission scan with rankings and a heatmap](assets/products/yuanmil-console-interactions.gif)](assets/products/yuanmil-console-interactions.gif)
+[![YuanMil Console showing the date picker and docked map animations, hotel search and rates, and a daily commission scan with rankings and a heatmap](assets/products/yuanmil-hotel-operations.gif)](assets/products/yuanmil-hotel-operations.gif)
 
 Built for YuanMil’s internal operations team to search hotel availability by map area, compare rates and cancellation policies, and track high-commission dates. The GIF is a portfolio walkthrough using 32 fictional hotels and 30 days of simulated data.
 
