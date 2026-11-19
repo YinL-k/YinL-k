@@ -54,6 +54,14 @@ Built a MapLibre interaction demo with continuous zoom, animated cluster transit
 
 [Live demo](https://yinl-k.github.io/hotel-map-smooth-zoom/) · [Source](https://github.com/YinL-k/hotel-map-smooth-zoom)
 
+### Hotel Booking Console
+
+[![Hotel search workflow showing date selection, a map search area, nearby hotels, room prices, and a cancellation rule](assets/products/hotel-booking-console.gif)](https://yinl-k.github.io/hotel-booking-console-demo/)
+
+Built a desktop workflow for selecting stay dates, searching a map area, and comparing hotel rooms, prices, and cancellation rules. The demo uses 48 fictional hotels.
+
+[Live demo](https://yinl-k.github.io/hotel-booking-console-demo/) · [Source](https://github.com/YinL-k/hotel-booking-console-demo)
+
 ## Co-Founder & CTO · Engineering Leadership
 
 ### YuanMil (元禧) · Co-Founder & Chief Technology Officer
