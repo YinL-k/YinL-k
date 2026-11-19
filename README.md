@@ -8,13 +8,30 @@ Computer Science Undergraduate @ Drew University · Mathematics Minor
 
 *Building web apps, backend systems, AI integrations, and developer tools.*
 
-[Selected Projects](#selected-projects) · [Engineering Experience](#engineering-experience) · [Research](#applied-ml-research) · [Open Source](#open-source-contributions)
+[What I'm Shipping](#what-im-shipping) · [Selected Projects](#selected-projects) · [Engineering Experience](#engineering-experience) · [Research](#applied-ml-research) · [Open Source](#open-source-contributions)
 
 </div>
 
 ## About Me
 
 I'm a Computer Science undergraduate at Drew University. At **YuanMil (元禧)**, I worked with the early founding team on merchant applications, operations tools, payment architecture, backend services, and AI integrations. I also build and release browser extensions and developer tools.
+
+## What I'm Shipping
+
+### 元禧 OS · YuanMil
+
+A released iOS app from the YuanMil ecosystem. Alongside the mobile product, I contributed to the wider product stack spanning merchant workflows, operations tools, payments, backend services, and AI integrations.
+
+[![App Store](https://img.shields.io/badge/App%20Store-View%20the%20App-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285)
+
+**What I worked on**
+- **Full-stack product engineering:** Merchant-facing features with Vue 3, uni-app, and TypeScript; operations interfaces with React; backend APIs with Java and Spring Boot.
+- **Payments:** Gateway routing, transaction verification, idempotency, recovery flows, and WeChat payment workflows.
+- **AI integrations:** LLM-driven tool selection and MCP integrations with business APIs, including validation and authorization checks.
+
+**Stack:** `Vue 3` · `uni-app` · `TypeScript` · `React` · `Java` · `Spring Boot` · `MCP`
+
+[Read the YuanMil engineering case study](docs/yuanmil-engineering-overview.md) · [View the App Store listing](https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285)
 
 ## Selected Projects
 
