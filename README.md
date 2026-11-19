@@ -56,7 +56,7 @@ Built a MapLibre interaction demo with continuous zoom, animated cluster transit
 
 ### YuanMil Hotel Booking Console
 
-[![YuanMil Console showing the date picker and docked map animations, hotel search and rates, and a daily commission scan with rankings and a heatmap](assets/products/yuanmil-console-workflow.gif)](assets/products/yuanmil-console-workflow.gif)
+[![YuanMil Console showing the date picker and docked map animations, hotel search and rates, and a daily commission scan with rankings and a heatmap](assets/products/yuanmil-console-interactions.gif)](assets/products/yuanmil-console-interactions.gif)
 
 The YuanMil OS console connects date selection and map-based hotel search with rate comparison and cancellation rules. The daily commission scan ranks hotels by consecutive high-commission dates and shows the results in a heatmap. The recording uses 32 fictional hotels and simulated rates over 30 dates.
 
