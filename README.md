@@ -48,7 +48,7 @@ I'm a Computer Science undergraduate at Drew University. As part of **YuanMil (�
     <td width="50%" valign="top">
       <h3><a href="https://github.com/YinL-k/google-skills-learning-agent">Google Skills Learning Agent</a></h3>
       <a href="https://github.com/YinL-k/google-skills-learning-agent">
-        <img src="https://raw.githubusercontent.com/YinL-k/google-skills-learning-agent/main/assets/learning-agent.png" alt="Google Skills Learning Agent project visual" width="100%" />
+        <img src="assets/learning-agent-flow.svg" alt="Google Skills Learning Agent project visual" width="100%" />
       </a>
       <p>Guarded browser-automation prototype for reading course/lab pages, extracting visible state, validating safe next actions, and maintaining learning notes.</p>
       <sub>TypeScript · Browser automation · Safety checks</sub>
