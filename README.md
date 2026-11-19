@@ -54,11 +54,11 @@ Built a MapLibre interaction demo with continuous zoom, animated cluster transit
 
 [Live demo](https://yinl-k.github.io/hotel-map-smooth-zoom/) · [Source](https://github.com/YinL-k/hotel-map-smooth-zoom)
 
-### YuanMil Hotel Booking Console
+### YuanMil Hotel Operations Console (Internal)
 
 [![YuanMil Console showing the date picker and docked map animations, hotel search and rates, and a daily commission scan with rankings and a heatmap](assets/products/yuanmil-console-interactions.gif)](assets/products/yuanmil-console-interactions.gif)
 
-The YuanMil OS console connects date selection and map-based hotel search with rate comparison and cancellation rules. The daily commission scan ranks hotels by consecutive high-commission dates and shows the results in a heatmap. The recording uses 32 fictional hotels and simulated rates over 30 dates.
+Built for YuanMil’s internal operations team to search hotel availability by map area, compare rates and cancellation policies, and track high-commission dates. The GIF is a portfolio walkthrough using 32 fictional hotels and 30 days of simulated data.
 
 ## Co-Founder & CTO · Engineering Leadership
 
