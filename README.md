@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner.svg?v=ab8497b31a93" alt="Xianzhuo (Ari) Yin — Co-Founder & CTO at YuanMil; Platform Engineering, Payment Systems, Applied AI; Computer Science at Drew University, Mathematics Minor" width="100%" />
+  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner-animated.svg?v=1" alt="Xianzhuo (Ari) Yin — Co-Founder &amp; CTO at YuanMil; Platform Engineering, Payment Systems, Applied AI; Computer Science at Drew University, Mathematics Minor" width="100%" />
   <p>
     <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/YuanMil%20OS-App%20Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="YuanMil OS on the App Store" /></a>
     <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/SakuraMeter-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SakuraMeter on Chrome Web Store" /></a>
@@ -46,19 +46,35 @@ I lead technical direction and build software hands-on across multi-surface prod
   </tr>
 </table>
 
+## Engineering Demos
+
 ### Smooth Hotel Map Zoom
 
-[![A widescreen map zooms through Beijing as simulated hotel-price markers split, move apart, and regroup](assets/products/hotel-map-smooth-zoom-clean.gif)](https://yinl-k.github.io/hotel-map-smooth-zoom/)
+<p align="center">
+  <a href="https://yinl-k.github.io/hotel-map-smooth-zoom/">
+    <img src="assets/products/hotel-map-smooth-zoom-clean.gif" alt="MapLibre hotel map zoom demo showing animated marker clustering across Beijing" width="900" />
+  </a>
+</p>
 
-Built a MapLibre interaction demo with continuous zoom, animated cluster transitions, and per-frame marker collision checks. The recording uses 360 simulated hotel locations across Beijing.
+<p align="center"><sub>MAPLIBRE · INTERACTIVE VISUALIZATION · 360 SIMULATED HOTEL LOCATIONS</sub></p>
 
-[Live demo](https://yinl-k.github.io/hotel-map-smooth-zoom/) · [Source](https://github.com/YinL-k/hotel-map-smooth-zoom)
+A MapLibre interaction demo with continuous zoom, animated cluster transitions, and per-frame marker collision checks. The recording uses 360 simulated hotel locations across Beijing.
 
-### YuanMil Hotel Operations Console (Internal)
+<p align="center"><a href="https://yinl-k.github.io/hotel-map-smooth-zoom/">Live demo</a> · <a href="https://github.com/YinL-k/hotel-map-smooth-zoom">Source</a></p>
 
-[![YuanMil Console showing the date picker and docked map animations, hotel search and rates, and a daily commission scan with rankings and a heatmap](assets/products/yuanmil-hotel-operations.gif)](assets/products/yuanmil-hotel-operations.gif)
+---
 
-Built for YuanMil’s internal operations team to search hotel availability by map area, compare rates and cancellation policies, and track high-commission dates. The GIF is a portfolio walkthrough using 32 fictional hotels and 30 days of simulated data.
+### YuanMil Hotel Operations Console
+
+<p align="center">
+  <a href="assets/products/yuanmil-hotel-operations.gif">
+    <img src="assets/products/yuanmil-hotel-operations.gif" alt="YuanMil hotel operations console walkthrough showing map-based hotel search, rate comparison, and commission analytics" width="900" />
+  </a>
+</p>
+
+<p align="center"><sub>INTERNAL TOOL · HOTEL SEARCH · RATE COMPARISON · COMMISSION ANALYTICS</sub></p>
+
+An internal operations workflow for searching hotel availability by map area, comparing rates and cancellation policies, and identifying high-commission dates. This portfolio walkthrough uses 32 fictional hotels and 30 days of simulated data.
 
 ## Co-Founder & CTO · Engineering Leadership
 
