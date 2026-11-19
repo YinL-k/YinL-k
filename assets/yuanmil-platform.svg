@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">YuanMil OS platform engineering overview</title>
+  <desc id="desc">An illustrative architecture map showing product surfaces, backend services, payment workflows, AI integrations, and infrastructure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/><stop offset="1" stop-color="#172d4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020617" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="620" rx="22" fill="url(#bg)"/>
+  <text x="58" y="65" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750">YUANMIL OS</text>
+  <text x="58" y="98" fill="#a9c4e6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">PRODUCT &amp; PLATFORM ENGINEERING · ILLUSTRATIVE MAP</text>
+  <g filter="url(#shadow)">
+    <rect x="58" y="142" width="1084" height="105" rx="16" fill="#1e3a5f" stroke="#4774a6"/>
+    <text x="88" y="180" fill="#eaf4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">PRODUCT SURFACES</text>
+    <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" text-anchor="middle">
+      <rect x="88" y="195" width="292" height="34" rx="8" fill="#294f7a"/><text x="234" y="217" fill="#fff">Member / Consumer App</text>
+      <rect x="454" y="195" width="292" height="34" rx="8" fill="#294f7a"/><text x="600" y="217" fill="#fff">Merchant Workflows</text>
+      <rect x="820" y="195" width="292" height="34" rx="8" fill="#294f7a"/><text x="966" y="217" fill="#fff">Operations Console</text>
+    </g>
+  </g>
+  <path d="M600 247V282" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M590 273L600 284L610 273" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <rect x="58" y="286" width="1084" height="86" rx="16" fill="#173a58" stroke="#2c7790"/>
+    <text x="88" y="322" fill="#eaf4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">BACKEND SERVICES</text>
+    <text x="88" y="348" fill="#b8d2e9" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">Java · Spring Boot · REST APIs · Async Workflows</text>
+    <g fill="#5eead4"><circle cx="790" cy="328" r="5"/><circle cx="820" cy="328" r="5"/><circle cx="850" cy="328" r="5"/></g>
+    <text x="884" y="334" fill="#d5e9f5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Service orchestration</text>
+  </g>
+  <path d="M600 372V405M315 405H885M315 405V427M885 405V427" stroke="url(#accent)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="58" y="430" width="520" height="132" rx="16" fill="#1d3553" stroke="#4774a6"/>
+    <rect x="622" y="430" width="520" height="132" rx="16" fill="#1d3553" stroke="#4774a6"/>
+    <text x="88" y="470" fill="#7dd3fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">PAYMENT SYSTEMS</text>
+    <text x="88" y="502" fill="#e2edf8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Gateway routing · Transaction verification</text>
+    <text x="88" y="527" fill="#e2edf8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Idempotency · Recovery workflows</text>
+    <text x="652" y="470" fill="#5eead4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">AI INTEGRATIONS</text>
+    <text x="652" y="502" fill="#e2edf8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">LLM intent understanding · MCP tools</text>
+    <text x="652" y="527" fill="#e2edf8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Argument validation · Authorization</text>
+  </g>
+  <text x="600" y="594" fill="#88a8ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" text-anchor="middle">Selected areas of engineering contribution — not a complete production deployment diagram</text>
+</svg>
