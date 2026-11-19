@@ -48,7 +48,7 @@ I lead technical direction and build software hands-on across multi-surface prod
 
 ### Smooth Hotel Map Zoom
 
-[![A widescreen map zooms through Beijing as simulated hotel-price markers split, move apart, and regroup](assets/products/hotel-map-smooth-zoom.gif)](https://yinl-k.github.io/hotel-map-smooth-zoom/)
+[![A widescreen map zooms through Beijing as simulated hotel-price markers split, move apart, and regroup](assets/products/hotel-map-smooth-zoom-clean.gif)](https://yinl-k.github.io/hotel-map-smooth-zoom/)
 
 Built a MapLibre interaction demo with continuous zoom, animated cluster transitions, and per-frame marker collision checks. The recording uses 360 simulated hotel locations across Beijing.
 
