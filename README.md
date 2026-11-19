@@ -1,31 +1,32 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner.svg?v=4bf4156ac3f3" alt="Xianzhuo (Ari) Yin — CTO at YuanMil, Platform, Payments and Applied AI" width="100%" />
+  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner.svg?v=4bf4156ac3f3" alt="Xianzhuo (Ari) Yin — CTO at YuanMil, Platform Engineering, Payments and Applied AI" width="100%" />
   <br/>
-  <h2>CTO @ YuanMil (元禧)</h2>
-  <p><sub>Computer Science @ Drew University · Mathematics Minor</sub></p>
-  <br/>
-  <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/YuanMil%20OS-App%20Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="YuanMil OS on the App Store" /></a>
-  <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/SakuraMeter-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SakuraMeter on Chrome Web Store" /></a>
-  <a href="https://github.com/YinL-k?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Projects-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories" /></a>
+  <p><strong>Computer Science @ Drew University</strong> · Mathematics Minor</p>
+  <p>
+    <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/YuanMil%20OS-App%20Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="YuanMil OS on the App Store" /></a>
+    <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/SakuraMeter-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SakuraMeter on Chrome Web Store" /></a>
+    <a href="https://github.com/YinL-k?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Projects-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories" /></a>
+  </p>
 </div>
 
-I'm the CTO of YuanMil (元禧), where I lead technical direction and hands-on engineering across a members-only hospitality platform. My work spans backend infrastructure, payment systems, merchant and member experiences, and applied AI. I'm also a Computer Science undergraduate at Drew University with a Mathematics minor.
+I lead technical direction and build software hands-on across multi-surface products, payment infrastructure, and applied AI. My work spans architecture, backend systems, product interfaces, integrations, and engineering delivery.
 
-## 🚀 What I'm shipping
+## 🚀 What I'm Shipping
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285">
-        <img src="assets/products/yuanmil-os.jpg" alt="YuanMil OS — three real product screens from the member app" width="100%" />
+        <img src="assets/products/yuanmil-os.jpg" alt="YuanMil OS — real iOS product screens" width="100%" />
       </a>
       <h3>YuanMil OS · 元禧</h3>
-      <p>A members-only hospitality platform spanning an iOS app, WeChat Mini Program, merchant workflows, and operations consoles.</p>
-      <p>As CTO, I lead platform engineering across payment reliability, backend services, merchant and member workflows, and AI integrations.</p>
+      <p><strong>Hospitality platform · iOS · WeChat Mini Program · Merchant &amp; Operations Systems</strong></p>
+      <p>A multi-surface hospitality platform connecting member experiences, merchant workflows, operations tools, hotel services, and shared backend systems.</p>
+      <p><strong>My scope:</strong> CTO — technical direction, platform architecture, payment infrastructure, AI integrations, and engineering delivery.</p>
       <p>
-        <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/App%20Store-live-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store" /></a>
-        <a href="https://yuanmilos.com/"><img src="https://img.shields.io/badge/Website-live-2EA44F?style=flat-square" alt="Website" /></a>
-        <img src="https://img.shields.io/badge/source-private-6E7781?style=flat-square&logo=github" alt="Private source repository" />
+        <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/App%20Store-Live-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store live" /></a>
+        <a href="https://yuanmilos.com/"><img src="https://img.shields.io/badge/Website-Live-2EA44F?style=flat-square" alt="Website live" /></a>
+        <img src="https://img.shields.io/badge/Source-Private-6E7781?style=flat-square&logo=github" alt="Private source" />
       </p>
       <p><sub>Vue 3 · uni-app · React · Java · Spring Boot · Redis/Lua · MCP</sub></p>
     </td>
@@ -34,67 +35,93 @@ I'm the CTO of YuanMil (元禧), where I lead technical direction and hands-on e
         <img src="assets/products/sakurameter.jpg" alt="SakuraMeter Chrome extension product preview" width="100%" />
       </a>
       <h3>SakuraMeter</h3>
-      <p>A Chrome extension for tracking ChatGPT activity, Codex usage windows, reset times, and usage trends.</p>
-      <p>Also includes Side Chat and an experimental browser agent.</p>
+      <p><strong>Chrome extension · ChatGPT &amp; Codex productivity</strong></p>
+      <p>Tracks ChatGPT activity with a heatmap and usage trends, shows available Codex quota windows and personal reset times, and includes Side Chat plus an experimental browser Agent.</p>
+      <p>Also surfaces third-party public reset forecasts as experimental signals—not official OpenAI predictions.</p>
       <p>
-        <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/Chrome%20Web%20Store-live-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome Web Store" /></a>
-        <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker"><img src="https://img.shields.io/badge/repo-public-6E7781?style=flat-square&logo=github" alt="Public source repository" /></a>
-        <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker/releases"><img src="https://img.shields.io/badge/releases-view-8250DF?style=flat-square" alt="Releases" /></a>
+        <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/Chrome%20Web%20Store-Live-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome Web Store live" /></a>
+        <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker"><img src="https://img.shields.io/badge/Source-Public-6E7781?style=flat-square&logo=github" alt="Public source" /></a>
+        <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker/releases"><img src="https://img.shields.io/badge/Releases-View-8250DF?style=flat-square" alt="Releases" /></a>
       </p>
       <p><sub>TypeScript · Chrome Extension APIs · Browser automation · Local-first data</sub></p>
     </td>
   </tr>
 </table>
 
-**Also building**
+## CTO & Engineering Leadership
 
-- **[Google Skills Learning Agent](https://github.com/YinL-k/google-skills-learning-agent)** — a guarded browser-automation prototype for course and lab workflows.
-- **[Web Launch Console](https://github.com/YinL-k/web-launch-console)** — a Windows utility for launching web apps, managing processes, and checking service health.
-- **[Interactive Vector Fields](https://github.com/YinL-k/vector-fields-project)** — interactive 2D/3D vector and field visualizations. [Live demo](https://yinl-k.github.io/vector-fields-project/3D%20Field.html)
-- **[Synchronized Scrolling Reader](https://github.com/YinL-k/synchronized-scrolling-reader)** — a two-pane reader with synchronized scrolling and syntax highlighting.
-- **[Pixiv Bookmark Random](https://github.com/YinL-k/Pixiv-Bookmark-Random)** — a Manifest V3 browser extension for buffered bookmark discovery.
-
-## Engineering Experience
-
-### YuanMil (元禧) · Chief Technology Officer (CTO)
+### YuanMil (元禧) · Chief Technology Officer
 *Aug–Nov 2026*
 
-- **Technical leadership:** Lead technical direction and architecture while staying hands-on with core platform engineering and delivery.
-- **Payment systems:** Designed and implemented gateway routing, transaction verification, idempotency, and recovery workflows for collection, refund, and settlement-related flows.
-- **Platform engineering:** Built merchant-facing features, operations interfaces, and Java/Spring Boot backend APIs across multiple business modules.
-- **AI integrations:** Developed LLM-based intent understanding and structured tool selection, integrating MCP and business APIs with argument validation and authorization checks.
-- **Engineering delivery:** Drive cross-module implementation, regression testing, release quality, and deployment documentation.
+I lead technical direction and remain hands-on across a hospitality platform that includes a member-facing app, WeChat Mini Program, merchant/business app, operations center, hotel console, public website, and shared Java backend.
 
-[Engineering case study](docs/yuanmil-engineering-overview.md)
+**Technical ownership**
+
+- **Platform architecture:** Connect product surfaces and shared services across Vue 3 / uni-app / TypeScript clients, React operations tools, Java / Spring Boot APIs, and Redis-backed asynchronous workflows.
+- **Payment infrastructure:** Designed gateway and merchant-account routing, account-version snapshots, callback/query verification, idempotency, persistent execution records, and recovery jobs across collection, refunds, and payout workflows.
+- **AI & MCP integrations:** Built LLM intent understanding and structured tool selection. Integrated a 20-tool Xiaohongshu MCP service with Redis-serialized execution, task tracking, and media handling; added OAuth 2.0 / PKCE authorization, scoped permissions, audit trails, and revocation.
+- **Engineering delivery:** Coordinate cross-module implementation, regression testing, release checks, and deployment documentation.
+
+**Selected implementation work**
+
+- [Payment gateway, transaction verification & recovery — PR #59](https://github.com/hanxiangli666/yuanxihui/pull/59)
+- [WeChat commission withdrawal backend — PR #62](https://github.com/hanxiangli666/yuanxihui/pull/62)
+- [Merchant app withdrawal and receipt flow — PR #64](https://github.com/hanxiangli666/yuanxihui/pull/64)
+- [Xiaohongshu MCP integration — PR #70](https://github.com/hanxiangli666/yuanxihui/pull/70)
+- [OAuth 2.0 / PKCE, scoped access and audit — PR #72](https://github.com/hanxiangli666/yuanxihui/pull/72)
+
+**Validation evidence:** The payout workstream included 2,458 passing backend tests and 59 passing frontend regression tests, plus TypeScript type-checking and a test Mini Program build. Payment-channel HTTP responses were simulated in automated tests; these results do not claim real-money transaction or WeChat-device end-to-end verification. MCP deployment and live account authorization are separate release checks.
+
+[Read the YuanMil engineering case study](docs/yuanmil-engineering-overview.md)
 
 ## Applied ML Research
 
-### DiscoveryHub · Drew Summer Science Institute
-*Summer 2026 · Semantic retrieval and embedding evaluation*
+### DiscoveryHub · Drew Summer Science Institute (DSSI)
+*Summer 2026 · Semantic retrieval & embedding fine-tuning*
 
-- Prepared heterogeneous records and query–document pairs for retrieval experiments.
+Built the retrieval fine-tuning pipeline for matching pharma-side research-interest queries with university technology-transfer listings and patent records.
+
+- Unified **26,648 usable records**: 6,671 AUTM/TTO listings, 9,977 ClinicalTrials.gov records, and 10,000 USPTO patent records.
+- Prepared **10,006 evaluation anchors**, query-document pairs, corpus files, relevance labels, and hard negatives.
 - Fine-tuned and evaluated **Qwen3-Embedding-0.6B** and **multilingual-e5-large**.
-- Used **Recall@k** and **MRR@10** to evaluate ranking quality and document limitations in proxy research-interest data.
 
-*Research repository is private.*
+| Model | Recall@10: baseline → tuned | MRR@10: baseline → tuned | Median rank |
+|---|---:|---:|---:|
+| Qwen3-Embedding-0.6B | 54.3% → **67.3%** | 0.359 → **0.447** | 7 → **3** |
+| multilingual-e5-large | 37.1% → **62.3%** | 0.238 → **0.406** | 42 → **4** |
+
+*Data limitation: ClinicalTrials.gov records served as proxy query-side research-interest text; they are not direct statements of companies' open-innovation priorities. Research repository and model artifacts are private.*
+
+## Selected Projects
+
+- **[Google Skills Learning Agent](https://github.com/YinL-k/google-skills-learning-agent)** — guarded browser automation for reading course/lab pages, extracting visible state, classifying action risk, validating safe next steps, and maintaining learning notes. It deliberately does not complete assessments or bypass platform restrictions.
+- **[Web Launch Console](https://github.com/YinL-k/web-launch-console)** — Windows PowerShell/WPF control panel for hosting web apps, managing process trees, running health checks, viewing logs, and optionally creating Cloudflare Quick Tunnels.
+- **[Identity V Desktop Pets](https://github.com/YinL-k/identity-v-desktop-pets)** — downloadable animated desktop-pet packs with v2 sprite sheets, 9 action groups, and 16 gaze directions.
+- **[Pixiv Bookmark Random](https://github.com/YinL-k/Pixiv-Bookmark-Random)** — Manifest V3 extension with background buffering, image preloading, SPA route support, tag context, and recent-item de-duplication.
+- **[Interactive Vector Fields](https://github.com/YinL-k/vector-fields-project)** — interactive 2D/3D vector addition and vector-field particle visualizations. [Live demos](https://yinl-k.github.io/vector-fields-project/).
+- **[Synchronized Scrolling Reader](https://github.com/YinL-k/synchronized-scrolling-reader)** — self-contained two-pane file reader with synchronized scrolling, syntax highlighting, local file loading, and theme controls.
 
 ## Open-Source Contributions
 
-- **[Pixiv-Shaft #1309](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1309)** — improved filename truncation by Unicode code point and capped extension length.
-- **[Pixiv-Shaft #1310](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1310)** — preserved one-based page numbering semantics for legacy import templates.
-- **[whyfull #19](https://github.com/amlaban65/whyfull/pull/19)** — added repeatable exclude paths for full scans.
+**Merged**
+
+- **[Gulliver #23](https://github.com/laaielichter/Gulliver/pull/23)** — added SQL warning GV016 for ORDER BY RANDOM() / RAND() sampling patterns, with regression coverage across database dialects.
+- **[NAGI BENCH #22](https://github.com/nagi-studio/nagi-bench/pull/22)** — contributed a GPT-5.4 / Codex CLI skeleton-watch benchmark artifact and registry entry.
+- **[Pixiv-Shaft #1309](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1309) · [#1310](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1310)** — fixed Unicode code-point-safe filename truncation and preserved legacy one-based page-number semantics.
+- **[whyfull #19](https://github.com/amlaban65/whyfull/pull/19)** — added repeatable --exclude paths to full scans, including reporting and regression tests.
+
+**Open PRs · Under review**
+
+- **[OpenAI simple-evals #134](https://github.com/openai/simple-evals/pull/134)** — fixed undefined HealthBench meta-evaluation scores for single-class predictions; added regression tests for evaluation and report paths.
+- **[OpenAI simple-evals #135](https://github.com/openai/simple-evals/pull/135)** — preserved negative signs when parsing MGSM numeric answers; added regression coverage across all 11 language prefixes.
 
 ## Toolbox
 
-<div align="center">
+**Languages:** TypeScript · JavaScript · Python · Java · Kotlin · SQL · HTML · CSS · PowerShell
 
-![Languages](https://skillicons.dev/icons?i=ts,js,python,java,html,css&theme=dark)
+**Frameworks & platforms:** React · Vue 3 · Spring Boot · Node.js · Chrome Extension APIs · Three.js · WPF · MySQL · Redis/Lua
 
-![Frameworks and tools](https://skillicons.dev/icons?i=react,vue,nodejs,spring,mysql,git,github&theme=dark)
-
-</div>
-
-**Also worked with:** REST APIs · SQL · Payment gateways & idempotency · Redis/Lua · OAuth 2.0 / PKCE · MCP · Browser extensions · CI / release checks
+**AI & systems:** LLM tool orchestration · MCP · OAuth 2.0 / PKCE · Embedding fine-tuning · Semantic retrieval · Payment gateways · Idempotency & recovery
 
 ## GitHub Activity
 
@@ -113,7 +140,7 @@ I'm the CTO of YuanMil (元禧), where I lead technical direction and hands-on e
 
 <div align="center">
 
-**Building useful products and reliable systems at the intersection of platform engineering, payments, and applied AI.**
+**Building reliable products and intelligent systems—from platform architecture and payments to applied AI.**
 
 <a href="https://github.com/YinL-k?tab=repositories">Explore all repositories</a>
 
