@@ -27,7 +27,7 @@
     </radialGradient>
     <filter id="introFocus" x="-5%" y="-15%" width="110%" height="130%" color-interpolation-filters="sRGB">
       <feGaussianBlur in="SourceGraphic" stdDeviation="7">
-        <animate attributeName="stdDeviation" from="7" to="0" dur="3s" begin="2s" begin="0s" fill="freeze" repeatCount="1" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+        <animate attributeName="stdDeviation" from="7" to="0" dur="3s" begin="2s" fill="freeze" repeatCount="1" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
       </feGaussianBlur>
     </filter>
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
