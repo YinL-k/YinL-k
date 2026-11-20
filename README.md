@@ -1,175 +1,110 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner-animated.svg?v=9" alt="Xianzhuo (Ari) Yin — Co-Founder &amp; CTO at YuanMil; Platform Engineering, Payment Systems, Applied AI; Computer Science at Drew University, Mathematics Minor" width="100%" />
+  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner-animated.svg?v=9" alt="Xianzhuo (Ari) Yin — Co-Founder and CTO at YuanMil; Computer Science at Drew University; Applied AI and platform engineering" width="100%" />
   <p>
-    <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/YuanMil%20OS-App%20Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="YuanMil OS on the App Store" /></a>
-    <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/SakuraMeter-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SakuraMeter on Chrome Web Store" /></a>
-    <a href="https://github.com/YinL-k?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Projects-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories" /></a>
+    <a href="https://www.linkedin.com/in/xianzhuo-yin-602562331/">LinkedIn</a> ·
+    <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285">YuanMil OS</a> ·
+    <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki">SakuraMeter</a> ·
+    <a href="https://github.com/YinL-k?tab=repositories">Repositories</a>
   </p>
 </div>
 
-I lead technical direction and build software hands-on across multi-surface products, payment infrastructure, and applied AI. My work spans architecture, backend systems, product interfaces, integrations, and engineering delivery.
+I build and lead software across multi-surface products, payment infrastructure, and applied AI. I combine technical direction with hands-on engineering—from backend architecture and integrations to product interfaces and retrieval systems.
 
-## 🚀 What I'm Shipping
+**Co-Founder & CTO @ YuanMil** · **Computer Science @ Drew University** · **Mathematics Minor**
+
+## Featured Products
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285">
-        <img src="assets/products/yuanmil-os.jpg" alt="YuanMil OS — real iOS product screens" width="100%" />
+        <img src="assets/products/yuanmil-os.jpg" alt="YuanMil OS product screens" width="100%" />
       </a>
       <h3>YuanMil OS · 元禧</h3>
-      <p><strong>Hospitality platform · iOS · WeChat Mini Program · Merchant &amp; Operations Systems</strong></p>
-      <p>A multi-surface hospitality platform connecting member experiences, merchant workflows, operations tools, hotel services, and shared backend systems.</p>
-      <p><strong>My scope:</strong> Co-Founder &amp; CTO — technical direction, platform architecture, payment infrastructure, AI integrations, and engineering delivery.</p>
-      <p>
-        <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/App%20Store-Live-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store live" /></a>
-        <a href="https://yuanmilos.com/"><img src="https://img.shields.io/badge/Website-Live-2EA44F?style=flat-square" alt="Website live" /></a>
-        <img src="https://img.shields.io/badge/Source-Private-6E7781?style=flat-square&logo=github" alt="Private source" />
-      </p>
-      <p><sub>Vue 3 · uni-app · React · Java · Spring Boot · Redis/Lua · MCP</sub></p>
+      <p><strong>Co-Founder & CTO · Hospitality technology</strong></p>
+      <p>A multi-surface hospitality platform spanning an iOS app, WeChat Mini Program, merchant workflows, operations tools, and shared backend services.</p>
+      <p><strong>My work:</strong> Technical direction, platform architecture, payment workflows, AI/MCP integrations, and engineering delivery.</p>
+      <p><a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285">App Store</a> · <a href="https://yuanmilos.com/">Website</a> · <a href="docs/yuanmil-engineering-overview.md">Engineering case study</a></p>
+      <p><a href="assets/products/yuanmil-hotel-operations.gif">Hotel operations console walkthrough</a> <sub>(fictional hotels and simulated data)</sub></p>
+      <p><sub>Java · Spring Boot · Vue 3 · uni-app · React · Redis/Lua · MCP</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki">
-        <img src="assets/products/sakurameter.jpg" alt="SakuraMeter Chrome extension product preview" width="100%" />
+        <img src="assets/products/sakurameter.jpg" alt="SakuraMeter Chrome extension preview" width="100%" />
       </a>
       <h3>SakuraMeter</h3>
-      <p><strong>Chrome extension · ChatGPT &amp; Codex productivity</strong></p>
-      <p>Tracks ChatGPT activity with a heatmap and usage trends, shows available Codex quota windows and personal reset times, and includes Side Chat plus an experimental browser Agent.</p>
-      <p>Also surfaces third-party public reset forecasts as experimental signals—not official OpenAI predictions.</p>
-      <p>
-        <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/Chrome%20Web%20Store-Live-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome Web Store live" /></a>
-        <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker"><img src="https://img.shields.io/badge/Source-Public-6E7781?style=flat-square&logo=github" alt="Public source" /></a>
-        <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker/releases"><img src="https://img.shields.io/badge/Releases-View-8250DF?style=flat-square" alt="Releases" /></a>
-      </p>
+      <p><strong>Creator & Developer · Chrome extension</strong></p>
+      <p>A browser extension for ChatGPT activity insights and Codex usage visibility, with Side Chat and an experimental browser-agent workflow.</p>
+      <p>Third-party global reset forecasts are clearly labeled as experimental signals, not official OpenAI predictions.</p>
+      <p><a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki">Chrome Web Store</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker">Source code</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker/releases">Releases</a></p>
       <p><sub>TypeScript · Chrome Extension APIs · Browser automation · Local-first data</sub></p>
     </td>
   </tr>
 </table>
 
-## Engineering Demos
+## Applied AI & Research
 
-### Smooth Hotel Map Zoom
+### DiscoveryHub · Drew Summer Science Institute (DSSI), Summer 2026
 
-<p align="center">
-  <a href="https://yinl-k.github.io/hotel-map-smooth-zoom/">
-    <img src="assets/products/hotel-map-smooth-zoom-clean.gif" alt="MapLibre hotel map zoom demo showing animated marker clustering across Beijing" width="900" />
-  </a>
-</p>
+Built the query-side data and semantic-retrieval fine-tuning pipeline for matching pharma-side research-interest text with university technology-transfer listings and patent records.
 
-<p align="center"><sub>MAPLIBRE · INTERACTIVE VISUALIZATION · 360 SIMULATED HOTEL LOCATIONS</sub></p>
-
-A MapLibre interaction demo with continuous zoom, animated cluster transitions, and per-frame marker collision checks. The recording uses 360 simulated hotel locations across Beijing.
-
-<p align="center"><a href="https://yinl-k.github.io/hotel-map-smooth-zoom/">Live demo</a> · <a href="https://github.com/YinL-k/hotel-map-smooth-zoom">Source</a></p>
-
----
-
-### YuanMil Hotel Operations Console
-
-<p align="center">
-  <a href="assets/products/yuanmil-hotel-operations.gif">
-    <img src="assets/products/yuanmil-hotel-operations.gif" alt="YuanMil hotel operations console walkthrough showing map-based hotel search, rate comparison, and commission analytics" width="900" />
-  </a>
-</p>
-
-<p align="center"><sub>INTERNAL TOOL · HOTEL SEARCH · RATE COMPARISON · COMMISSION ANALYTICS</sub></p>
-
-An internal operations workflow for searching hotel availability by map area, comparing rates and cancellation policies, and identifying high-commission dates. This portfolio walkthrough uses 32 fictional hotels and 30 days of simulated data.
-
-## Co-Founder & CTO · Engineering Leadership
-
-### YuanMil (元禧) · Co-Founder & Chief Technology Officer
-*Aug–Nov 2026*
-
-As Co-Founder & CTO, I lead technical direction and remain hands-on across a hospitality platform that includes a member-facing app, WeChat Mini Program, merchant/business app, operations center, hotel console, public website, and shared Java backend.
-
-**Technical ownership**
-
-- **Platform architecture:** Connect product surfaces and shared services across Vue 3 / uni-app / TypeScript clients, React operations tools, Java / Spring Boot APIs, and Redis-backed asynchronous workflows.
-- **Payment infrastructure:** Designed gateway and merchant-account routing, account-version snapshots, callback/query verification, idempotency, persistent execution records, and recovery jobs across collection, refunds, and payout workflows.
-- **AI & MCP integrations:** Built LLM intent understanding and structured tool selection. Integrated a 20-tool Xiaohongshu MCP service with Redis-serialized execution, task tracking, and media handling; added OAuth 2.0 / PKCE authorization, scoped permissions, audit trails, and revocation.
-- **Engineering delivery:** Coordinate cross-module implementation, regression testing, release checks, and deployment documentation.
-
-**Selected implementation work**
-
-- [Payment gateway, transaction verification & recovery — PR #59](https://github.com/hanxiangli666/yuanxihui/pull/59)
-- [WeChat commission withdrawal backend — PR #62](https://github.com/hanxiangli666/yuanxihui/pull/62)
-- [Merchant app withdrawal and receipt flow — PR #64](https://github.com/hanxiangli666/yuanxihui/pull/64)
-- [Xiaohongshu MCP integration — PR #70](https://github.com/hanxiangli666/yuanxihui/pull/70)
-- [OAuth 2.0 / PKCE, scoped access and audit — PR #72](https://github.com/hanxiangli666/yuanxihui/pull/72)
-
-**Validation evidence:** The payout workstream included 2,458 passing backend tests and 59 passing frontend regression tests, plus TypeScript type-checking and a test Mini Program build. Payment-channel HTTP responses were simulated in automated tests; these results do not claim real-money transaction or WeChat-device end-to-end verification. MCP deployment and live account authorization are separate release checks.
-
-[Read the YuanMil engineering case study](docs/yuanmil-engineering-overview.md)
-
-## Applied ML Research
-
-### DiscoveryHub · Drew Summer Science Institute (DSSI)
-*Summer 2026 · Semantic retrieval & embedding fine-tuning*
-
-Built the retrieval fine-tuning pipeline for matching pharma-side research-interest queries with university technology-transfer listings and patent records.
-
-- Unified **26,648 usable records**: 6,671 AUTM/TTO listings, 9,977 ClinicalTrials.gov records, and 10,000 USPTO patent records.
-- Prepared **10,006 evaluation anchors**, query-document pairs, corpus files, relevance labels, and hard negatives.
+- **26,648 normalized records:** 6,671 AUTM/TTO listings, 9,977 ClinicalTrials.gov records, and 10,000 USPTO patent records.
+- **10,006 evaluation anchors** with query-document pairs, corpus records, relevance labels, and hard negatives.
 - Fine-tuned and evaluated **Qwen3-Embedding-0.6B** and **multilingual-e5-large**.
 
-| Model | Recall@10: baseline → tuned | MRR@10: baseline → tuned | Median rank |
+| Embedding model | Recall@10: baseline → tuned | MRR@10: baseline → tuned | Median rank |
 |---|---:|---:|---:|
 | Qwen3-Embedding-0.6B | 54.3% → **67.3%** | 0.359 → **0.447** | 7 → **3** |
 | multilingual-e5-large | 37.1% → **62.3%** | 0.238 → **0.406** | 42 → **4** |
 
-*Data limitation: ClinicalTrials.gov records served as proxy query-side research-interest text; they are not direct statements of companies' open-innovation priorities. Research repository and model artifacts are private.*
+**Data limitation:** ClinicalTrials.gov records were used as proxy research-interest text; they are not direct statements of companies' open-innovation priorities. Large model checkpoints and generated datasets are not included in the repository.
 
-## Selected Projects
+[Research repository](https://github.com/YinL-k/discoveryhub-technology-transfer-matchmaker) · [Detailed results](https://github.com/YinL-k/discoveryhub-technology-transfer-matchmaker/blob/main/RESULTS.md)
 
-- **[Google Skills Learning Agent](https://github.com/YinL-k/google-skills-learning-agent)** — guarded browser automation for reading course/lab pages, extracting visible state, classifying action risk, validating safe next steps, and maintaining learning notes. It deliberately does not complete assessments or bypass platform restrictions.
-- **[Web Launch Console](https://github.com/YinL-k/web-launch-console)** — Windows PowerShell/WPF control panel for hosting web apps, managing process trees, running health checks, viewing logs, and optionally creating Cloudflare Quick Tunnels.
-- **[Identity V Desktop Pets](https://github.com/YinL-k/identity-v-desktop-pets)** — downloadable animated desktop-pet packs with v2 sprite sheets, 9 action groups, and 16 gaze directions.
-- **[Pixiv Bookmark Random](https://github.com/YinL-k/Pixiv-Bookmark-Random)** — Manifest V3 extension with background buffering, image preloading, SPA route support, tag context, and recent-item de-duplication.
-- **[Interactive Vector Fields](https://github.com/YinL-k/vector-fields-project)** — interactive 2D/3D vector addition and vector-field particle visualizations. [Live demos](https://yinl-k.github.io/vector-fields-project/).
-- **[Synchronized Scrolling Reader](https://github.com/YinL-k/synchronized-scrolling-reader)** — self-contained two-pane file reader with synchronized scrolling, syntax highlighting, local file loading, and theme controls.
+## Selected Engineering Projects
 
-## Open-Source Contributions
+### Smooth Hotel Map Zoom
 
-**Merged**
+<p align="center">
+  <img src="assets/products/hotel-map-smooth-zoom-clean.gif" alt="MapLibre demo showing smooth zoom and animated hotel-marker clustering" width="90%" />
+</p>
 
-- **[Gulliver #23](https://github.com/laaielichter/Gulliver/pull/23)** — added SQL warning GV016 for ORDER BY RANDOM() / RAND() sampling patterns, with regression coverage across database dialects.
+An offline-friendly **MapLibre GL JS** demo featuring continuous zoom, animated marker clustering, collision-aware transitions, and reduced-motion support. The demo uses **49 synthetic hotel records**.
+
+[Live demo](https://yinl-k.github.io/hotel-map-smooth-zoom/) · [Source code](https://github.com/YinL-k/hotel-map-smooth-zoom)
+
+### Google Skills Learning Agent
+
+A guarded browser-automation scaffold that inspects visible course and lab state, validates safe next actions, and maintains learning notes. It deliberately does not complete quizzes or assessments, use personal cloud credentials, or bypass platform restrictions.
+
+[Source code](https://github.com/YinL-k/google-skills-learning-agent)
+
+### Web Launch Console
+
+A Windows PowerShell/WPF control panel for launching static sites or custom web servers, supervising child processes, running health checks, viewing logs, and optionally creating Cloudflare Quick Tunnels.
+
+[Source code](https://github.com/YinL-k/web-launch-console)
+
+## Selected Open-Source Contributions
+
+Selected **merged** contributions to public projects:
+
+- **[Gulliver #23](https://github.com/laaielichter/Gulliver/pull/23)** — added SQL warning GV016 for `ORDER BY RANDOM()` / `RAND()` sampling patterns, with regression coverage.
+- **Pixiv-Shaft [#1309](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1309) · [#1310](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1310)** — fixed Unicode-safe filename truncation and preserved legacy one-based page-number semantics.
+- **[whyfull #19](https://github.com/amlaban65/whyfull/pull/19)** — added repeatable `--exclude` paths for full scans, including reporting and regression tests.
 - **[NAGI BENCH #22](https://github.com/nagi-studio/nagi-bench/pull/22)** — contributed a GPT-5.4 / Codex CLI skeleton-watch benchmark artifact and registry entry.
-- **[Pixiv-Shaft #1309](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1309) · [#1310](https://github.com/CeuiLiSA/Pixiv-Shaft/pull/1310)** — fixed Unicode code-point-safe filename truncation and preserved legacy one-based page-number semantics.
-- **[whyfull #19](https://github.com/amlaban65/whyfull/pull/19)** — added repeatable --exclude paths to full scans, including reporting and regression tests.
 
-**Open PRs · Under review**
+## Technical Focus
 
-- **[OpenAI simple-evals #134](https://github.com/openai/simple-evals/pull/134)** — fixed undefined HealthBench meta-evaluation scores for single-class predictions; added regression tests for evaluation and report paths.
-- **[OpenAI simple-evals #135](https://github.com/openai/simple-evals/pull/135)** — preserved negative signs when parsing MGSM numeric answers; added regression coverage across all 11 language prefixes.
+| Area | Hands-on technologies and concepts |
+|---|---|
+| **Languages** | TypeScript · JavaScript · Python · Java · SQL · PowerShell |
+| **Backend & product systems** | Spring Boot · Node.js · Redis/Lua · MySQL · payment workflows · idempotency and recovery |
+| **AI & data** | LLM tool calling · MCP · embedding fine-tuning · semantic retrieval · ranking evaluation |
+| **Frontend & integrations** | React · Vue 3 · uni-app · Chrome Extension APIs · OAuth 2.0 / PKCE · browser automation |
 
-## Toolbox
+## Contact
 
-**Languages:** TypeScript · JavaScript · Python · Java · Kotlin · SQL · HTML · CSS · PowerShell
+Interested in software engineering, product engineering, and applied AI opportunities.
 
-**Frameworks & platforms:** React · Vue 3 · Spring Boot · Node.js · Chrome Extension APIs · Three.js · WPF · MySQL · Redis/Lua
-
-**AI & systems:** LLM tool orchestration · MCP · OAuth 2.0 / PKCE · Embedding fine-tuning · Semantic retrieval · Payment gateways · Idempotency & recovery
-
-## GitHub Activity
-
-<div align="center">
-
-<img alt="GitHub profile statistics" src="assets/github-stats.svg" width="49%" />
-<img alt="Top languages in public repositories" src="assets/top-languages.svg" width="49%" />
-
-<img alt="GitHub contribution calendar" src="assets/contribution-calendar.svg" width="100%" />
-
-</div>
-
-<sub>Profile metrics are updated by <a href=".github/workflows/profile-metrics.yml">GitHub Actions</a>.</sub>
-
----
-
-<div align="center">
-
-**Building reliable products and intelligent systems—from platform architecture and payments to applied AI.**
-
-<a href="https://github.com/YinL-k?tab=repositories">Explore all repositories</a>
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/xianzhuo-yin-602562331/) · [GitHub repositories](https://github.com/YinL-k?tab=repositories)
