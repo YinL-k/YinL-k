@@ -37,34 +37,34 @@
     <animate attributeName="opacity" from="0" to="1" dur=".8s" begin=".12s" fill="freeze"/>
   </rect>
   <circle cx="1030" cy="70" r="190" fill="url(#blueGlow)" opacity="0">
-    <animate attributeName="opacity" from="0" to=".78" dur=".9s" begin="1.62s" fill="freeze"/>
-    <animate begin="2.75s" attributeName="r" values="184;212;184" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
-    <animate begin="2.75s" attributeName="opacity" values=".78;1;.78" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
+    <animate attributeName="opacity" from="0" to=".78" dur=".9s" begin="2.3s" fill="freeze"/>
+    <animate begin="3.45s" attributeName="r" values="184;212;184" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
+    <animate begin="3.45s" attributeName="opacity" values=".78;1;.78" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
   </circle>
   <circle cx="1090" cy="290" r="210" fill="url(#tealGlow)" opacity="0">
-    <animate attributeName="opacity" from="0" to=".74" dur="1s" begin="1.97s" fill="freeze"/>
-    <animate attributeName="r" values="198;230;198" dur="18s" begin="3.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
-    <animate attributeName="opacity" values=".74;.96;.74" dur="18s" begin="3.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
+    <animate attributeName="opacity" from="0" to=".74" dur="1s" begin="2.9s" fill="freeze"/>
+    <animate attributeName="r" values="198;230;198" dur="18s" begin="4.15s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
+    <animate attributeName="opacity" values=".74;.96;.74" dur="18s" begin="4.15s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
   </circle>
   <path d="M700 270C830 170 890 280 1010 170S1120 110 1200 65" fill="none" stroke="#7dd3fc" stroke-width="7" stroke-linecap="round" opacity=".10" filter="url(#lineGlow)" stroke-dasharray="1200" stroke-dashoffset="1200">
-    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="1.05s" begin="1.62s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
-    <animate begin="2.75s" attributeName="d" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="M700 270C830 170 890 280 1010 170S1120 110 1200 65;M700 270C830 160 890 291 1010 177S1120 118 1200 70;M700 270C830 181 890 267 1010 163S1120 101 1200 59;M700 270C830 170 890 280 1010 170S1120 110 1200 65"/>
-    <animate begin="2.75s" attributeName="opacity" values=".10;.16;.10" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
+    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="1.05s" begin="2.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+    <animate begin="3.45s" attributeName="d" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="M700 270C830 170 890 280 1010 170S1120 110 1200 65;M700 270C830 160 890 291 1010 177S1120 118 1200 70;M700 270C830 181 890 267 1010 163S1120 101 1200 59;M700 270C830 170 890 280 1010 170S1120 110 1200 65"/>
+    <animate begin="3.45s" attributeName="opacity" values=".10;.16;.10" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
   </path>
   <path d="M700 270C830 170 890 280 1010 170S1120 110 1200 65" fill="none" stroke="url(#line)" stroke-width="2" stroke-linecap="round" opacity=".82" stroke-dasharray="1200" stroke-dashoffset="1200">
-    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="1.05s" begin="1.62s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
-    <animate begin="2.75s" attributeName="d" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="M700 270C830 170 890 280 1010 170S1120 110 1200 65;M700 270C830 160 890 291 1010 177S1120 118 1200 70;M700 270C830 181 890 267 1010 163S1120 101 1200 59;M700 270C830 170 890 280 1010 170S1120 110 1200 65"/>
-    <animate begin="2.75s" attributeName="stroke-opacity" values=".68;.98;.68" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
+    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="1.05s" begin="2.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+    <animate begin="3.45s" attributeName="d" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="M700 270C830 170 890 280 1010 170S1120 110 1200 65;M700 270C830 160 890 291 1010 177S1120 118 1200 70;M700 270C830 181 890 267 1010 163S1120 101 1200 59;M700 270C830 170 890 280 1010 170S1120 110 1200 65"/>
+    <animate begin="3.45s" attributeName="stroke-opacity" values=".68;.98;.68" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
   </path>
   <path d="M730 310C860 210 920 320 1040 210S1150 150 1220 105" fill="none" stroke="#5eead4" stroke-width="6" stroke-linecap="round" opacity=".08" filter="url(#lineGlow)" stroke-dasharray="1200" stroke-dashoffset="1200">
-    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="1.15s" begin="1.97s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
-    <animate attributeName="d" begin="3.2s" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="M730 310C860 210 920 320 1040 210S1150 150 1220 105;M730 310C860 201 920 331 1040 217S1150 159 1220 111;M730 310C860 219 920 309 1040 203S1150 141 1220 99;M730 310C860 210 920 320 1040 210S1150 150 1220 105"/>
-    <animate attributeName="opacity" values=".08;.14;.08" dur="18s" begin="3.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
+    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="1.15s" begin="2.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+    <animate attributeName="d" begin="4.15s" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="M730 310C860 210 920 320 1040 210S1150 150 1220 105;M730 310C860 201 920 331 1040 217S1150 159 1220 111;M730 310C860 219 920 309 1040 203S1150 141 1220 99;M730 310C860 210 920 320 1040 210S1150 150 1220 105"/>
+    <animate attributeName="opacity" values=".08;.14;.08" dur="18s" begin="4.15s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
   </path>
   <path d="M730 310C860 210 920 320 1040 210S1150 150 1220 105" fill="none" stroke="url(#line)" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="1200" stroke-dashoffset="1200">
-    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="1.15s" begin="1.97s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
-    <animate attributeName="d" begin="3.2s" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="M730 310C860 210 920 320 1040 210S1150 150 1220 105;M730 310C860 201 920 331 1040 217S1150 159 1220 111;M730 310C860 219 920 309 1040 203S1150 141 1220 99;M730 310C860 210 920 320 1040 210S1150 150 1220 105"/>
-    <animate attributeName="stroke-opacity" values=".5;.72;.5" dur="18s" begin="3.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
+    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="1.15s" begin="2.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+    <animate attributeName="d" begin="4.15s" dur="18s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.25;.75;1" keySplines=".42 0 .58 1;.42 0 .58 1;.42 0 .58 1" values="M730 310C860 210 920 320 1040 210S1150 150 1220 105;M730 310C860 201 920 331 1040 217S1150 159 1220 111;M730 310C860 219 920 309 1040 203S1150 141 1220 99;M730 310C860 210 920 320 1040 210S1150 150 1220 105"/>
+    <animate attributeName="stroke-opacity" values=".5;.72;.5" dur="18s" begin="4.15s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1"/>
   </path>
   <g fill="#fff" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin=".28s" dur=".5s" fill="freeze"/>
