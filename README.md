@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner-animated.svg?v=8" alt="Xianzhuo (Ari) Yin — Co-Founder &amp; CTO at YuanMil; Platform Engineering, Payment Systems, Applied AI; Computer Science at Drew University, Mathematics Minor" width="100%" />
+  <img src="https://raw.githubusercontent.com/YinL-k/YinL-k/main/assets/profile-banner-animated.svg?v=9" alt="Xianzhuo (Ari) Yin — Co-Founder &amp; CTO at YuanMil; Platform Engineering, Payment Systems, Applied AI; Computer Science at Drew University, Mathematics Minor" width="100%" />
   <p>
     <a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285"><img src="https://img.shields.io/badge/YuanMil%20OS-App%20Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="YuanMil OS on the App Store" /></a>
     <a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki"><img src="https://img.shields.io/badge/SakuraMeter-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SakuraMeter on Chrome Web Store" /></a>
