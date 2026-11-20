@@ -25,7 +25,6 @@ I build and lead software across multi-surface products, payment infrastructure,
       <p>A multi-surface hospitality platform spanning an iOS app, WeChat Mini Program, merchant workflows, operations tools, and shared backend services.</p>
       <p><strong>My work:</strong> Technical direction, platform architecture, payment workflows, AI/MCP integrations, and engineering delivery.</p>
       <p><a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285">App Store</a> · <a href="https://yuanmilos.com/">Website</a> · <a href="docs/yuanmil-engineering-overview.md">Engineering case study</a></p>
-      <p><a href="assets/products/yuanmil-hotel-operations.gif">Hotel operations console walkthrough</a> <sub>(fictional hotels and simulated data)</sub></p>
       <p><sub>Java · Spring Boot · Vue 3 · uni-app · React · Redis/Lua · MCP</sub></p>
     </td>
     <td width="50%" valign="top">
@@ -41,6 +40,18 @@ I build and lead software across multi-surface products, payment infrastructure,
     </td>
   </tr>
 </table>
+
+## Internal Product System · YuanMil Hotel Operations Console
+
+<p align="center">
+  <img src="assets/products/yuanmil-hotel-operations.gif" alt="YuanMil Hotel Operations Console walkthrough showing map-based hotel search, rate and cancellation-policy comparison, and commission analytics" width="100%" />
+</p>
+
+**Internal hospitality operations platform · Hotel discovery · Rate intelligence · Commission analytics**
+
+This is a substantial internal operations system—not a small demo or a standalone UI experiment. It supports hotel discovery by map area, availability and rate comparison, cancellation-policy review, and commission analysis across travel dates. The goal is to turn fragmented hotel-sourcing and pricing work into a single operational workflow.
+
+The portfolio walkthrough uses **32 fictional hotels** and **30 days of simulated data** to demonstrate the product experience without exposing internal hotel, supplier, or business information. The production system and source code are private; this GIF is a visual product walkthrough, not a claim that the underlying system is open source.
 
 ## Applied AI & Research
 
