@@ -41,17 +41,15 @@ I build and lead software across multi-surface products, payment infrastructure,
   </tr>
 </table>
 
-## Internal Product System · YuanMil Hotel Operations Console
+## YuanMil Hotel Operations Platform
 
 <p align="center">
-  <img src="assets/products/yuanmil-hotel-operations.gif" alt="YuanMil Hotel Operations Console walkthrough showing map-based hotel search, rate and cancellation-policy comparison, and commission analytics" width="100%" />
+  <img src="assets/products/yuanmil-hotel-operations.gif" alt="YuanMil Hotel Operations Platform — map-based hotel discovery, rate comparison, cancellation policies, and commission analytics" width="100%" />
 </p>
 
-**Internal hospitality operations platform · Hotel discovery · Rate intelligence · Commission analytics**
+**Product architecture · Hotel sourcing · Commercial operations**
 
-This is a substantial internal operations system—not a small demo or a standalone UI experiment. It supports hotel discovery by map area, availability and rate comparison, cancellation-policy review, and commission analysis across travel dates. The goal is to turn fragmented hotel-sourcing and pricing work into a single operational workflow.
-
-The portfolio walkthrough uses **32 fictional hotels** and **30 days of simulated data** to demonstrate the product experience without exposing internal hotel, supplier, or business information. The production system and source code are private; this GIF is a visual product walkthrough, not a claim that the underlying system is open source.
+Designed and built as part of YuanMil, this operations platform brings hotel discovery, multi-date availability and rate comparison, cancellation-policy review, and commission analysis into one workflow. It helps the team evaluate hotel options and pricing across locations and travel dates.
 
 ## Applied AI & Research
 
