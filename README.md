@@ -42,20 +42,20 @@ I build and lead software across multi-surface products, payment infrastructure,
 
 ## YuanMil — Selected Engineering Work
 
-### YuanMil Business Operations · 元禧经营宝
+### YuanMil Merchant Portal
 
 <p align="center">
   <em>Product walkthrough GIF in progress — placeholder for the upcoming demo.</em>
 </p>
 
-**Sole Developer · Independent end-to-end product development**
+**Sole Developer · Independent end-to-end development**
 
-Independently developed YuanMil Business Operations, a standalone WeChat Mini Program for merchants and individual distributors, owning its product workflows, interface implementation, and client-side integration with YuanMil's shared Java / Spring services using **Vue 3, uni-app, and TypeScript**.
+Independently designed and developed YuanMil Merchant Portal, a dedicated merchant-facing WeChat Mini Program for store owners to monitor and manage their own store operations. Built the end-to-end client experience with **Vue 3, uni-app, and TypeScript**, integrating with YuanMil's shared Java / Spring services.
 
-- **Merchant operations:** Store, staff, and role-aware workflows.
-- **Business workflows:** Order management, order verification, product management, and store operations.
-- **Financial workflows:** Settlement management, distributor commissions, and payout-related experiences.
-- **Platform integration:** Connected merchant and distributor experiences to shared YuanMil backend capabilities.
+- **Store operations:** Store information, staff access, and role-aware workflows.
+- **Orders & fulfillment:** Order management and order verification.
+- **Products & finance:** Product management, settlement records, and store-level financial workflows.
+- **Platform integration:** Connected the merchant experience to YuanMil's shared Java / Spring backend services.
 
 <sub>Vue 3 · uni-app · TypeScript · Java / Spring APIs</sub>
 
