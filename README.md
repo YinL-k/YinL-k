@@ -50,7 +50,7 @@ I build and lead software across multi-surface products, payment infrastructure,
 
 **Sole Developer · Independent end-to-end product development**
 
-Independently developed YuanMil Business Operations, a standalone WeChat Mini Program for merchants and individual distributors. I owned the client-side product implementation using **Vue 3, uni-app, and TypeScript**, including its integration with YuanMil's shared Java / Spring services.
+Independently developed YuanMil Business Operations, a standalone WeChat Mini Program for merchants and individual distributors, owning its product workflows, interface implementation, and client-side integration with YuanMil's shared Java / Spring services using **Vue 3, uni-app, and TypeScript**.
 
 - **Merchant operations:** Store, staff, and role-aware workflows.
 - **Business workflows:** Order management, order verification, product management, and store operations.
@@ -76,7 +76,7 @@ Independently designed and built this hotel operations console from product conc
 Contributed to the broader YuanMil OS platform through technical direction and hands-on engineering across payment infrastructure, shared backend services, AI integrations, and internal operations tooling.
 
 - **Payment architecture:** Designed and implemented collection, refund, and settlement-related workflows, including gateway and account routing, transaction verification, idempotency, and recovery.
-- **AI Concierge & MCP:** Built LLM-based intent understanding and structured tool execution, with application-side argument validation and authorization checks.
+- **AI Concierge & MCP:** Contributed to LLM-based intent understanding and structured tool execution, with application-side argument validation and authorization checks.
 - **Identity and access:** Contributed to OAuth 2.0 Authorization Code with PKCE and scoped access controls for integrations.
 - **Platform services:** Worked across Java / Spring business APIs and internal operations tooling supporting multiple product surfaces.
 
