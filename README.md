@@ -33,8 +33,7 @@ I build and lead software across multi-surface products, payment infrastructure,
       </a>
       <h3>SakuraMeter</h3>
       <p><strong>Creator & Developer · Chrome extension</strong></p>
-      <p>A browser extension for ChatGPT activity insights and Codex usage visibility, with Side Chat and an experimental browser-agent workflow.</p>
-      <p>Third-party global reset forecasts are clearly labeled as experimental signals, not official OpenAI predictions.</p>
+      <p>A browser extension for ChatGPT activity insights and Codex usage visibility, featuring Side Chat and browser-agent workflows.</p>
       <p><a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki">Chrome Web Store</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker">Source code</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker/releases">Releases</a></p>
       <p><sub>TypeScript · Chrome Extension APIs · Browser automation · Local-first data</sub></p>
     </td>
@@ -66,7 +65,7 @@ Built the query-side data and semantic-retrieval fine-tuning pipeline for matchi
 | Qwen3-Embedding-0.6B | 54.3% → **67.3%** | 0.359 → **0.447** | 7 → **3** |
 | multilingual-e5-large | 37.1% → **62.3%** | 0.238 → **0.406** | 42 → **4** |
 
-**Data limitation:** ClinicalTrials.gov records were used as proxy research-interest text; they are not direct statements of companies' open-innovation priorities. Large model checkpoints and generated datasets are not included in the repository.
+ClinicalTrials.gov records served as proxy research-interest text for retrieval evaluation.
 
 [Research repository](https://github.com/YinL-k/discoveryhub-technology-transfer-matchmaker) · [Detailed results](https://github.com/YinL-k/discoveryhub-technology-transfer-matchmaker/blob/main/RESULTS.md)
 
@@ -78,13 +77,13 @@ Built the query-side data and semantic-retrieval fine-tuning pipeline for matchi
   <img src="assets/products/hotel-map-smooth-zoom-clean.gif" alt="MapLibre demo showing smooth zoom and animated hotel-marker clustering" width="90%" />
 </p>
 
-An offline-friendly **MapLibre GL JS** demo featuring continuous zoom, animated marker clustering, collision-aware transitions, and reduced-motion support. The demo uses **49 synthetic hotel records**.
+An offline-friendly **MapLibre GL JS** demo featuring continuous zoom, animated marker clustering, collision-aware transitions, and reduced-motion support.
 
 [Live demo](https://yinl-k.github.io/hotel-map-smooth-zoom/) · [Source code](https://github.com/YinL-k/hotel-map-smooth-zoom)
 
 ### Google Skills Learning Agent
 
-A guarded browser-automation scaffold that inspects visible course and lab state, validates safe next actions, and maintains learning notes. It deliberately does not complete quizzes or assessments, use personal cloud credentials, or bypass platform restrictions.
+An AI-powered browser automation agent that inspects course and lab interfaces, validates next actions, and maintains structured learning notes.
 
 [Source code](https://github.com/YinL-k/google-skills-learning-agent)
 
