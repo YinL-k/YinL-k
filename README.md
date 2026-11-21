@@ -23,7 +23,7 @@ I build and lead software across multi-surface products, payment infrastructure,
       <h3>YuanMil OS · 元禧</h3>
       <p><strong>Co-Founder & CTO · Hospitality technology</strong></p>
       <p>A multi-surface hospitality platform spanning an iOS app, WeChat Mini Program, merchant workflows, operations tools, and shared backend services.</p>
-      <p><strong>My work:</strong> Technical direction, platform architecture, payment workflows, AI/MCP integrations, and engineering delivery.</p>
+      <p><strong>My work:</strong> Platform architecture and hands-on engineering across payment infrastructure, Java / Spring services, AI/MCP integrations, and OAuth 2.0 / PKCE authorization.</p>
       <p><a href="https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285">App Store</a> · <a href="https://yuanmilos.com/">Website</a> · <a href="docs/yuanmil-engineering-overview.md">Engineering case study</a></p>
       <p><sub>Java · Spring Boot · Vue 3 · uni-app · React · Redis/Lua · MCP</sub></p>
     </td>
@@ -35,20 +35,51 @@ I build and lead software across multi-surface products, payment infrastructure,
       <p><strong>Creator & Developer · Chrome extension</strong></p>
       <p>A browser extension for ChatGPT activity insights and Codex usage visibility, featuring Side Chat and browser-agent workflows.</p>
       <p><a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki">Chrome Web Store</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker">Source code</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker/releases">Releases</a></p>
-      <p><sub>TypeScript · Chrome Extension APIs · Browser automation · Local-first data</sub></p>
-    </td>
-  </tr>
-</table>
+      <p><sub>TypeScript · Chrome Extension APIs · Browser automation · Local-## YuanMil — Selected Engineering Work
 
-## YuanMil Hotel Operations Platform
+### YuanMil Business Operations · 元禧经营宝
 
 <p align="center">
-  <img src="assets/products/yuanmil-hotel-operations.gif" alt="YuanMil Hotel Operations Platform — map-based hotel discovery, rate comparison, cancellation policies, and commission analytics" width="100%" />
+  <em>Product walkthrough GIF in progress — placeholder for the upcoming demo.</em>
 </p>
 
-**Product architecture · Hotel sourcing · Commercial operations**
+**Sole Developer · Independent end-to-end product development**
 
-Designed and built as part of YuanMil, this operations platform brings hotel discovery, multi-date availability and rate comparison, cancellation-policy review, and commission analysis into one workflow. It helps the team evaluate hotel options and pricing across locations and travel dates.
+Independently developed YuanMil Business Operations, a standalone WeChat Mini Program for merchants and individual distributors. I owned the client-side product implementation using **Vue 3, uni-app, and TypeScript**, including its integration with YuanMil's shared Java / Spring services.
+
+- **Merchant operations:** Store, staff, and role-aware workflows.
+- **Business workflows:** Order management, order verification, product management, and store operations.
+- **Financial workflows:** Settlement management, distributor commissions, and payout-related experiences.
+- **Platform integration:** Connected merchant and distributor experiences to shared YuanMil backend capabilities.
+
+<sub>Vue 3 · uni-app · TypeScript · Java / Spring APIs</sub>
+
+### High-Commission Hotel Search & Operations Console
+
+<p align="center">
+  <img src="assets/products/yuanmil-hotel-operations.gif" alt="YuanMil Hotel Operations Console — map-based hotel discovery, multi-date rate comparison, cancellation policies, and commission analysis" width="100%" />
+</p>
+
+**Sole Developer · Independent product design and development**
+
+Independently designed and built this hotel operations console from product concept through implementation. It brings together map-based hotel discovery, multi-date availability and rate comparison, cancellation-policy review, and high-commission opportunity analysis in one workflow.
+
+### YuanMil OS · 元禧
+
+**Co-Founder & CTO · Platform engineering contributor**
+
+Contributed to the broader YuanMil OS platform through technical direction and hands-on engineering across payment infrastructure, shared backend services, AI integrations, and internal operations tooling.
+
+- **Payment architecture:** Designed and implemented collection, refund, and settlement-related workflows, including gateway and account routing, transaction verification, idempotency, and recovery.
+- **AI Concierge & MCP:** Built LLM-based intent understanding and structured tool execution, with application-side argument validation and authorization checks.
+- **Identity and access:** Contributed to OAuth 2.0 Authorization Code with PKCE and scoped access controls for integrations.
+- **Platform services:** Worked across Java / Spring business APIs and internal operations tooling supporting multiple product surfaces.
+
+[App Store](https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285) · [Website](https://yuanmilos.com/) · [Engineering case study](docs/yuanmil-engineering-overview.md)
+
+<sub>Java · Spring Boot · Vue 3 · uni-app · React · Redis/Lua · MCP · OAuth 2.0 / PKCE</sub>
+
+ and pricing across locations and travel dates.
 
 ## Applied AI & Research
 
