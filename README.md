@@ -35,7 +35,12 @@ I build and lead software across multi-surface products, payment infrastructure,
       <p><strong>Creator & Developer · Chrome extension</strong></p>
       <p>A browser extension for ChatGPT activity insights and Codex usage visibility, featuring Side Chat and browser-agent workflows.</p>
       <p><a href="https://chromewebstore.google.com/detail/hnajkeiigdkgafcobbkchpcdafddfpki">Chrome Web Store</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker">Source code</a> · <a href="https://github.com/YinL-k/chatgpt-codex-usage-reset-tracker/releases">Releases</a></p>
-      <p><sub>TypeScript · Chrome Extension APIs · Browser automation · Local-## YuanMil — Selected Engineering Work
+      <p><sub>TypeScript · Chrome Extension APIs · Browser automation · Local-first data</sub></p>
+    </td>
+  </tr>
+</table>
+
+## YuanMil — Selected Engineering Work
 
 ### YuanMil Business Operations · 元禧经营宝
 
@@ -78,8 +83,6 @@ Contributed to the broader YuanMil OS platform through technical direction and h
 [App Store](https://apps.apple.com/cn/app/%E5%85%83%E7%A6%A7os/id6795852285) · [Website](https://yuanmilos.com/) · [Engineering case study](docs/yuanmil-engineering-overview.md)
 
 <sub>Java · Spring Boot · Vue 3 · uni-app · React · Redis/Lua · MCP · OAuth 2.0 / PKCE</sub>
-
- and pricing across locations and travel dates.
 
 ## Applied AI & Research
 
