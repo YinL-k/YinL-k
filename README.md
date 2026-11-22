@@ -45,7 +45,7 @@ I build and lead software across multi-surface products, payment infrastructure,
 ### YuanMil Merchant Portal
 
 <p align="center">
-  <em>Product walkthrough GIF in progress — placeholder for the upcoming demo.</em>
+  <img src="assets/products/yuanmil-merchant-portal.gif" alt="YuanMil Merchant Portal demo using a simulated order to show fulfillment, ledger recording, and the shared platform architecture" width="100%" />
 </p>
 
 **Sole Developer · Independent end-to-end development**
